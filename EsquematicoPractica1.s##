@@ -17674,7 +17674,7 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=1311"&gt; Datasheet
 <part name="L4" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="GSOT05C-GS08" deviceset="GSOT05C-GS08" device=""/>
-<part name="U7" library="5002" deviceset="5002" device=""/>
+<part name="TP5" library="5002" deviceset="5002" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18201,10 +18201,14 @@ Output ripple with optional filter = 70 mVPP</text>
 </sheet>
 <sheet>
 <plain>
-<wire x1="129.54" y1="568.96" x2="1201.42" y2="568.96" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="568.96" x2="129.54" y2="-160.02" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="-160.02" x2="1201.42" y2="-160.02" width="0.1524" layer="97"/>
-<wire x1="1201.42" y1="568.96" x2="1201.42" y2="-160.02" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="568.96" x2="264.16" y2="568.96" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="568.96" x2="129.54" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="439.42" x2="264.16" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="264.16" y1="568.96" x2="264.16" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="568.96" x2="401.32" y2="568.96" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="568.96" x2="266.7" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="439.42" x2="401.32" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="401.32" y1="568.96" x2="401.32" y2="439.42" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="162.56" y="497.84" rot="R180"/>
@@ -18215,7 +18219,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="L4" gate="G$1" x="172.72" y="551.18"/>
 <instance part="GND12" gate="1" x="210.82" y="553.72" rot="R180"/>
 <instance part="IC1" gate="G$1" x="210.82" y="510.54" rot="R90"/>
-<instance part="U7" gate="G$1" x="213.36" y="482.6" rot="R270"/>
+<instance part="TP5" gate="G$1" x="213.36" y="482.6" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -18291,10 +18295,22 @@ Output ripple with optional filter = 70 mVPP</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="U7" gate="G$1" pin="1"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="482.6" x2="213.36" y2="482.6" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="482.6" x2="236.22" y2="482.6" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="482.6" x2="248.92" y2="482.6" width="0.1524" layer="91"/>
 <junction x="213.36" y="482.6"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="497.84" x2="248.92" y2="497.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="492.76" x2="248.92" y2="492.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
