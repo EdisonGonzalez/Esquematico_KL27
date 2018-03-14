@@ -18279,6 +18279,91 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 </deviceset>
 </devicesets>
 </library>
+<library name="switch" urn="urn:adsk.eagle:library:380">
+<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
+Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="RDT1034" urn="urn:adsk.eagle:footprint:27571/1" library_version="1">
+<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
+www.radiohm.com</description>
+<wire x1="-4.4" y1="4.85" x2="4.4" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="4.4" x2="4.85" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="-4.85" x2="-4.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-4.4" x2="-4.85" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="4.15" x2="3.7" y2="4.15" width="0.2032" layer="21"/>
+<wire x1="4.15" y1="3.7" x2="4.15" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="-4.15" x2="-3.7" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-4.15" y1="-3.7" x2="-4.15" y2="3.7" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="4.4" x2="-4.4" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-4.15" y1="3.7" x2="-3.7" y2="4.15" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="4.4" x2="4.4" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="4.15" y1="3.7" x2="3.7" y2="4.15" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="-4.4" x2="4.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="4.15" y1="-3.7" x2="3.7" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-4.4" x2="-4.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="-4.15" y1="-3.7" x2="-3.7" y2="-4.15" width="0.2032" layer="21"/>
+<pad name="B" x="0.65" y="1.9" drill="0.8"/>
+<pad name="A1" x="-3.175" y="0.635" drill="0.8"/>
+<pad name="A" x="3.175" y="-0.635" drill="0.8"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RDT1034" urn="urn:adsk.eagle:package:27704/1" type="box" library_version="1">
+<description>PUSH SWITCH
+www.radiohm.com</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="NORMOPEN2-1" urn="urn:adsk.eagle:symbol:27570/1" library_version="1">
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="3.048" y2="-0.762" width="0.2032" layer="94"/>
+<wire x1="3.048" y1="-2.032" x2="3.048" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="3.048" y1="-2.54" x2="5.08" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="-1.524" x2="0.762" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="-0.508" x2="0.762" y2="0.254" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="0.254" x2="0.762" y2="0.508" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="1.016" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="1.524" x2="0.254" y2="1.524" width="0.2032" layer="94"/>
+<wire x1="0.254" y1="-0.254" x2="0.762" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0.254" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.508" width="0" layer="94"/>
+<text x="-3.048" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.588" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="A1" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="B" x="7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RDT1034" urn="urn:adsk.eagle:component:27784/1" prefix="S" library_version="1">
+<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
+www.radiohm.com</description>
+<gates>
+<gate name="G$1" symbol="NORMOPEN2-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RDT1034">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="B" pad="B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27704/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18293,8 +18378,8 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="U2" library="SFH6156-4T" deviceset="SFH6156-4T" device="SMD-4_VO-L"/>
 <part name="Q1" library="IRF7416PBF_Completo" deviceset="IRF7416PBF" device=""/>
 <part name="U3" library="MC34063ADR" deviceset="MC34063ADR" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="3.8K"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="1.2K"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="1.64K"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="1K"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="0.33R"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3216C" package3d_urn="urn:adsk.eagle:package:23476/2" value="220uH"/>
 <part name="D1" library="diode" deviceset="1N581*" device="" package3d_urn="urn:adsk.eagle:package:43421/1" technology="9-B"/>
@@ -18311,7 +18396,7 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device="" value="+3V3"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
 <part name="CARGA" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
@@ -18329,7 +18414,7 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1"/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND2"/>
 <part name="OUT1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="3.3V" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="U5" library="SFH6156-4T" deviceset="SFH6156-4T" device="SMD-4_VO-L"/>
@@ -18339,7 +18424,7 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1"/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND2"/>
 <part name="OUT2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="3.3V1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="X1" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB-SCHIELD-" device="32005-201" package3d_urn="urn:adsk.eagle:package:6443/1"/>
@@ -18359,6 +18444,11 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R81" library="RK73H1JLTD1005F" deviceset="RK73H1JLTD1005F" device="" value="10M"/>
 <part name="U7" library="TLV274QPWRG4Q1" deviceset="TLV274QPWRG4Q1" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device="" value="+3V3"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="220"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="RDT1034" device="" package3d_urn="urn:adsk.eagle:package:27704/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -18405,6 +18495,18 @@ Output ripple with optional filter = 70 mVPP</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="97">Entrada Digital con LED indicador Optoacoplada</text>
 <wire x1="-5.08" y1="-78.74" x2="-15.24" y2="-78.74" width="0.1524" layer="97"/>
 <wire x1="-15.24" y1="-78.74" x2="-15.24" y2="-15.24" width="0.1524" layer="97"/>
+<wire x1="33.02" y1="-101.6" x2="-12.5476" y2="-101.6" width="0.1524" layer="97"/>
+<wire x1="33.02" y1="-165.1" x2="33.02" y2="-101.6" width="0.1524" layer="97"/>
+<wire x1="33.02" y1="-165.1" x2="-2.3876" y2="-165.1" width="0.1524" layer="97"/>
+<wire x1="-2.54" y1="-165.1" x2="-12.7" y2="-165.1" width="0.1524" layer="97"/>
+<wire x1="-12.7" y1="-165.1" x2="-12.7" y2="-101.6" width="0.1524" layer="97"/>
+<text x="-10.16" y="-99.06" size="1.778" layer="97">LED indicador de polarización</text>
+<wire x1="124.46" y1="-99.06" x2="78.8924" y2="-99.06" width="0.1524" layer="97"/>
+<wire x1="124.46" y1="-162.56" x2="124.46" y2="-99.06" width="0.1524" layer="97"/>
+<wire x1="124.46" y1="-162.56" x2="89.0524" y2="-162.56" width="0.1524" layer="97"/>
+<wire x1="88.9" y1="-162.56" x2="78.74" y2="-162.56" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="-162.56" x2="78.74" y2="-99.06" width="0.1524" layer="97"/>
+<text x="81.28" y="-96.52" size="1.778" layer="97">Pulsador de RST</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="33.02" y="302.26"/>
@@ -18470,6 +18572,13 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND11" gate="1" x="104.14" y="-73.66"/>
 <instance part="OUT2" gate="-1" x="129.54" y="-55.88" rot="R180"/>
 <instance part="3.3V1" gate="-1" x="114.3" y="-27.94" rot="R270"/>
+<instance part="SUPPLY2" gate="+5V" x="5.08" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="3.175" y="-118.745" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="5.08" y="-132.08" rot="R90"/>
+<instance part="LED3" gate="G$1" x="5.08" y="-144.78"/>
+<instance part="GND12" gate="1" x="5.08" y="-157.48"/>
+<instance part="S1" gate="G$1" x="96.52" y="-121.92"/>
 </instances>
 <busses>
 </busses>
@@ -18534,6 +18643,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="93.98" y1="-63.5" x2="104.14" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="104.14" y1="-63.5" x2="104.14" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="5.08" y1="-154.94" x2="5.08" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18611,6 +18725,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="160.02" y1="132.08" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
 <junction x="160.02" y="137.16"/>
 <pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
+<wire x1="5.08" y1="-127" x2="5.08" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -18879,6 +18998,13 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="3.3V1" gate="-1" pin="KL"/>
 <wire x1="114.3" y1="-40.64" x2="114.3" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="-142.24" x2="5.08" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
