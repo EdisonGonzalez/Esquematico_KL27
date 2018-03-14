@@ -17418,6 +17418,192 @@ Source: www.cypressindustries.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MPZ2012S331AT000">
+<description>&lt;Ferrite Beads Multi-Layer Power 330Ohm 25% 100MHz 2.5A 50mOhm DCR 0805 T/R&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="INDC2012X105N">
+<description>&lt;b&gt;MPZ2012S331AT000&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.85" y="0" dx="1.45" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="0.85" y="0" dx="1.45" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.7" y1="1" x2="1.7" y2="1" width="0.05" layer="51"/>
+<wire x1="1.7" y1="1" x2="1.7" y2="-1" width="0.05" layer="51"/>
+<wire x1="1.7" y1="-1" x2="-1.7" y2="-1" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="-1" x2="-1.7" y2="1" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MPZ2012S331AT000">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MPZ2012S331AT000" prefix="L">
+<description>&lt;b&gt;Ferrite Beads Multi-Layer Power 330Ohm 25% 100MHz 2.5A 50mOhm DCR 0805 T/R&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MPZ2012S331AT000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2012X105N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Ferrite Beads Multi-Layer Power 330Ohm 25% 100MHz 2.5A 50mOhm DCR 0805 T/R" constant="no"/>
+<attribute name="HEIGHT" value="1.05mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MPZ2012S331AT000" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="GSOT05C-GS08">
+<description>&lt;VISHAY - GSOT05C-GS08 - TVS DIODE ARRAY, 504W, 5V, SOT-23, FULL REEL&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P248X115-3N">
+<description>&lt;b&gt;SOT23&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.1" y="0.95" dx="1.1" dy="0.6" layer="1"/>
+<smd name="2" x="-1.1" y="-0.95" dx="1.1" dy="0.6" layer="1"/>
+<smd name="3" x="1.1" y="0" dx="1.1" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.9" y1="1.8" x2="1.9" y2="1.8" width="0.05" layer="51"/>
+<wire x1="1.9" y1="1.8" x2="1.9" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="1.9" y1="-1.8" x2="-1.9" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="-1.9" y1="-1.8" x2="-1.9" y2="1.8" width="0.05" layer="51"/>
+<wire x1="-0.658" y1="1.475" x2="0.658" y2="1.475" width="0.1" layer="51"/>
+<wire x1="0.658" y1="1.475" x2="0.658" y2="-1.475" width="0.1" layer="51"/>
+<wire x1="0.658" y1="-1.475" x2="-0.658" y2="-1.475" width="0.1" layer="51"/>
+<wire x1="-0.658" y1="-1.475" x2="-0.658" y2="1.475" width="0.1" layer="51"/>
+<wire x1="-0.658" y1="0.525" x2="0.292" y2="1.475" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="1.475" x2="0.2" y2="1.475" width="0.2" layer="21"/>
+<wire x1="0.2" y1="1.475" x2="0.2" y2="-1.475" width="0.2" layer="21"/>
+<wire x1="0.2" y1="-1.475" x2="-0.2" y2="-1.475" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-1.475" x2="-0.2" y2="1.475" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="1.5" x2="-0.55" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GSOT05C-GS08">
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-5.08" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CATHODE(1)" x="0" y="0" length="middle" direction="in"/>
+<pin name="CATHODE(2)" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="ANODE" x="38.1" y="0" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GSOT05C-GS08" prefix="IC">
+<description>&lt;b&gt;VISHAY - GSOT05C-GS08 - TVS DIODE ARRAY, 504W, 5V, SOT-23, FULL REEL&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.vishay.com/docs/85824/gsot03c.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="GSOT05C-GS08" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P248X115-3N">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="3"/>
+<connect gate="G$1" pin="CATHODE(1)" pad="1"/>
+<connect gate="G$1" pin="CATHODE(2)" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="VISHAY - GSOT05C-GS08 - TVS DIODE ARRAY, 504W, 5V, SOT-23, FULL REEL" constant="no"/>
+<attribute name="HEIGHT" value="1.15mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GSOT05C-GS08" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="5002">
+<description>&lt;KEYSTONE - 5002 - TEST POINT CONNECTOR&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="5002">
+<description>&lt;b&gt;5002&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.02" diameter="1.6"/>
+<text x="0.151" y="0.202" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0.151" y="0.202" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.27" width="0.2" layer="25"/>
+<circle x="0" y="0" radius="1.27" width="0.2" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="5002">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5002" prefix="U">
+<description>&lt;b&gt;KEYSTONE - 5002 - TEST POINT CONNECTOR&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=1311"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="5002" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70799413" constant="no"/>
+<attribute name="ALLIED_PRICE/STOCK" value="http://www.alliedelec.com/keystone-electronics-5002/70799413/" constant="no"/>
+<attribute name="DESCRIPTION" value="KEYSTONE - 5002 - TEST POINT CONNECTOR" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5002" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="2508838443" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/2508838443" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17482,6 +17668,13 @@ Source: www.cypressindustries.com</description>
 <part name="OUT2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="3.3V1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="X1" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB-SCHIELD-" device="32005-201" package3d_urn="urn:adsk.eagle:package:6443/1"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
+<part name="L3" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
+<part name="L4" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC1" library="GSOT05C-GS08" deviceset="GSOT05C-GS08" device=""/>
+<part name="U7" library="5002" deviceset="5002" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18014,37 +18207,94 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="1201.42" y1="568.96" x2="1201.42" y2="-160.02" width="0.1524" layer="97"/>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="162.56" y="528.32" rot="R180"/>
-<instance part="X1" gate="S" x="162.56" y="538.48" rot="R180"/>
+<instance part="X1" gate="G$1" x="162.56" y="497.84" rot="R180"/>
+<instance part="X1" gate="S" x="162.56" y="508" rot="R180"/>
+<instance part="R14" gate="G$1" x="231.14" y="492.76" rot="R180"/>
+<instance part="R15" gate="G$1" x="223.52" y="497.84"/>
+<instance part="L3" gate="G$1" x="185.42" y="482.6"/>
+<instance part="L4" gate="G$1" x="172.72" y="551.18"/>
+<instance part="GND12" gate="1" x="210.82" y="553.72" rot="R180"/>
+<instance part="IC1" gate="G$1" x="210.82" y="510.54" rot="R90"/>
+<instance part="U7" gate="G$1" x="213.36" y="482.6" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$26" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="5"/>
-<wire x1="167.64" y1="533.4" x2="175.26" y2="533.4" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="533.4" x2="175.26" y2="546.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="167.64" y1="528.32" x2="185.42" y2="528.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="525.78" x2="193.04" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="497.84" x2="213.36" y2="497.84" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="CATHODE(2)"/>
+<wire x1="213.36" y1="497.84" x2="218.44" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="510.54" x2="213.36" y2="497.84" width="0.1524" layer="91"/>
+<junction x="213.36" y="497.84"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="523.24" x2="172.72" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="523.24" x2="172.72" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="518.16" x2="185.42" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="492.76" x2="172.72" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="492.76" x2="172.72" y2="482.6" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="482.6" x2="185.42" y2="482.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="495.3" x2="185.42" y2="495.3" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="495.3" x2="185.42" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="492.76" x2="210.82" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="CATHODE(1)"/>
+<wire x1="210.82" y1="492.76" x2="226.06" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="510.54" x2="210.82" y2="492.76" width="0.1524" layer="91"/>
+<junction x="210.82" y="492.76"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="X1" gate="S" pin="S2"/>
+<wire x1="162.56" y1="553.72" x2="162.56" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="553.72" x2="162.56" y2="553.72" width="0.1524" layer="91"/>
+<pinref part="X1" gate="S" pin="S4"/>
+<wire x1="157.48" y1="510.54" x2="157.48" y2="553.72" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="553.72" x2="165.1" y2="553.72" width="0.1524" layer="91"/>
+<junction x="162.56" y="553.72"/>
+<pinref part="X1" gate="S" pin="S1"/>
+<wire x1="165.1" y1="510.54" x2="165.1" y2="551.18" width="0.1524" layer="91"/>
+<pinref part="X1" gate="S" pin="S3"/>
+<wire x1="165.1" y1="551.18" x2="160.02" y2="551.18" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="551.18" x2="160.02" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="551.18" x2="172.72" y2="551.18" width="0.1524" layer="91"/>
+<junction x="165.1" y="551.18"/>
+<pinref part="L4" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="553.72" x2="165.1" y2="551.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="ANODE"/>
+<wire x1="210.82" y1="548.64" x2="210.82" y2="551.18" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="5"/>
+<wire x1="167.64" y1="502.92" x2="198.12" y2="502.92" width="0.1524" layer="91"/>
+<pinref part="L4" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="551.18" x2="198.12" y2="551.18" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="551.18" x2="198.12" y2="502.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="551.18" x2="210.82" y2="551.18" width="0.1524" layer="91"/>
+<junction x="198.12" y="551.18"/>
+<junction x="210.82" y="551.18"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="L3" gate="G$1" pin="2"/>
+<pinref part="U7" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="482.6" x2="213.36" y2="482.6" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="482.6" x2="236.22" y2="482.6" width="0.1524" layer="91"/>
+<junction x="213.36" y="482.6"/>
 </segment>
 </net>
 </nets>
