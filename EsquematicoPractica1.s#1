@@ -19222,6 +19222,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="363.22" y="187.96" size="1.778" layer="95"/>
 <pinref part="R101" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="USB0_DP"/>
+<wire x1="33.02" y1="292.1" x2="30.48" y2="292.1" width="0.1524" layer="91"/>
+<label x="30.48" y="292.1" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="USB_DM" class="0">
 <segment>
@@ -19229,6 +19234,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="R100" gate="G$1" pin="2"/>
 <wire x1="355.6" y1="177.8" x2="363.22" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="177.8" x2="363.22" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="USB0_DM"/>
+<wire x1="33.02" y1="289.56" x2="30.48" y2="289.56" width="0.1524" layer="91"/>
+<label x="30.48" y="289.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SDA_JTAG_TMS" class="0">
