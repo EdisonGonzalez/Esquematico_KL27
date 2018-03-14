@@ -18343,14 +18343,14 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="OUT2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="3.3V1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="X1" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB-SCHIELD-" device="32005-201" package3d_urn="urn:adsk.eagle:package:6443/1"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
+<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
+<part name="R100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
 <part name="L3" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
 <part name="L4" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="GSOT05C-GS08" deviceset="GSOT05C-GS08" device=""/>
 <part name="TP5" library="5002" deviceset="5002" device=""/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="10K"/>
+<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="10K"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="M50-3500542" deviceset="M50-3500542" device=""/>
 <part name="Y3" library="ABS25-32.768KHZ-T" deviceset="ABS25-32.768KHZ-T" device="" value="32.768KHZ"/>
@@ -18905,14 +18905,14 @@ Output ripple with optional filter = 70 mVPP</text>
 <instances>
 <instance part="X1" gate="G$1" x="142.24" y="505.46" rot="R180"/>
 <instance part="X1" gate="S" x="142.24" y="515.62" rot="R180"/>
-<instance part="R14" gate="G$1" x="210.82" y="500.38" rot="R180"/>
-<instance part="R15" gate="G$1" x="203.2" y="505.46"/>
+<instance part="R101" gate="G$1" x="210.82" y="500.38" rot="R180"/>
+<instance part="R100" gate="G$1" x="203.2" y="505.46"/>
 <instance part="L3" gate="G$1" x="165.1" y="490.22"/>
 <instance part="L4" gate="G$1" x="152.4" y="548.64"/>
 <instance part="GND12" gate="1" x="190.5" y="551.18" rot="R180"/>
 <instance part="IC1" gate="G$1" x="190.5" y="508" rot="R90"/>
 <instance part="TP5" gate="G$1" x="193.04" y="490.22" rot="R270"/>
-<instance part="R16" gate="G$1" x="365.76" y="508" rot="R90"/>
+<instance part="R102" gate="G$1" x="365.76" y="508" rot="R90"/>
 <instance part="GND13" gate="1" x="320.04" y="485.14"/>
 <instance part="J1" gate="G$1" x="325.12" y="500.38"/>
 <instance part="Y3" gate="G$1" x="436.88" y="523.24"/>
@@ -18929,7 +18929,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <segment>
 <pinref part="X1" gate="G$1" pin="3"/>
 <wire x1="147.32" y1="505.46" x2="193.04" y2="505.46" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R100" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="CATHODE(2)"/>
 <wire x1="193.04" y1="505.46" x2="198.12" y2="505.46" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="508" x2="193.04" y2="505.46" width="0.1524" layer="91"/>
@@ -18951,7 +18951,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="147.32" y1="502.92" x2="165.1" y2="502.92" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="502.92" x2="165.1" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="500.38" x2="190.5" y2="500.38" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R101" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="CATHODE(1)"/>
 <wire x1="190.5" y1="500.38" x2="205.74" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="508" x2="190.5" y2="500.38" width="0.1524" layer="91"/>
@@ -19024,20 +19024,20 @@ Output ripple with optional filter = 70 mVPP</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R100" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="505.46" x2="228.6" y2="505.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R101" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="500.38" x2="228.6" y2="500.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R102" gate="G$1" pin="1"/>
 <wire x1="347.98" y1="500.38" x2="365.76" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="500.38" x2="365.76" y2="502.92" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="500.38" x2="381" y2="500.38" width="0.1524" layer="91"/>
