@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 06 02"
+Version="08 06 00"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -348,16 +348,12 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
-UsedLibrary="C:/Users/Dell/Documents/UdeA_2018-1/Sistemas_Embebidos/Practica No. 1/Librerias práctica 1 SE/IRF7416T.lbr"
-UsedLibrary="C:/Users/Dell/Documents/UdeA_2018-1/Sistemas_Embebidos/Practica No. 1/Librerias práctica 1 SE/KL27.lbr"
-UsedLibrary="C:/Users/Dell/Documents/UdeA_2018-1/Sistemas_Embebidos/Practica No. 1/Librerias práctica 1 SE/MC34063ADR2G.lbr"
-UsedLibrary="C:/Users/Dell/Documents/UdeA_2018-1/Sistemas_Embebidos/Practica No. 1/Librerias práctica 1 SE/SFH6156-4T.lbr"
-UsedLibrary="C:/Users/Dell/Documents/UdeA_2018-1/Sistemas_Embebidos/Practica No. 1/Librerias práctica 1 SE/IRF7416PBF_Completo.lbr"
+UsedLibrary="C:/Users/luis_/Downloads/RC0402FR-0733RL/EAGLE/RC0402FR-0733RL.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1920 1080"
 Window="Win_1"
