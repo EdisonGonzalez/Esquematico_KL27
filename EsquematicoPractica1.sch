@@ -18347,16 +18347,16 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 <part name="R100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="33"/>
 <part name="L3" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
 <part name="L4" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND100" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="GSOT05C-GS08" deviceset="GSOT05C-GS08" device=""/>
 <part name="TP5" library="5002" deviceset="5002" device=""/>
 <part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="10K"/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="M50-3500542" deviceset="M50-3500542" device=""/>
 <part name="Y3" library="ABS25-32.768KHZ-T" deviceset="ABS25-32.768KHZ-T" device="" value="32.768KHZ"/>
 <part name="C42" library="GRM1555C1H120JA01D" deviceset="GRM1555C1H120JA01D" device="" value="12PF"/>
 <part name="C43" library="GRM1555C1H120JA01D" deviceset="GRM1555C1H120JA01D" device="" value="12PF"/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R81" library="RK73H1JLTD1005F" deviceset="RK73H1JLTD1005F" device="" value="10M"/>
 <part name="U7" library="TLV274QPWRG4Q1" deviceset="TLV274QPWRG4Q1" device=""/>
 </parts>
@@ -18909,16 +18909,16 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="R100" gate="G$1" x="203.2" y="505.46"/>
 <instance part="L3" gate="G$1" x="165.1" y="490.22"/>
 <instance part="L4" gate="G$1" x="152.4" y="548.64"/>
-<instance part="GND12" gate="1" x="190.5" y="551.18" rot="R180"/>
+<instance part="GND100" gate="1" x="190.5" y="551.18" rot="R180"/>
 <instance part="IC1" gate="G$1" x="190.5" y="508" rot="R90"/>
 <instance part="TP5" gate="G$1" x="193.04" y="490.22" rot="R270"/>
 <instance part="R102" gate="G$1" x="365.76" y="508" rot="R90"/>
-<instance part="GND13" gate="1" x="320.04" y="485.14"/>
+<instance part="GND101" gate="1" x="320.04" y="485.14"/>
 <instance part="J1" gate="G$1" x="325.12" y="500.38"/>
 <instance part="Y3" gate="G$1" x="436.88" y="523.24"/>
 <instance part="C42" gate="G$1" x="487.68" y="533.4"/>
 <instance part="C43" gate="G$1" x="487.68" y="510.54"/>
-<instance part="GND14" gate="1" x="505.46" y="502.92"/>
+<instance part="GND102" gate="1" x="505.46" y="502.92"/>
 <instance part="R81" gate="G$1" x="429.26" y="530.86" rot="R270"/>
 <instance part="U7" gate="A" x="172.72" y="388.62"/>
 </instances>
@@ -18980,7 +18980,7 @@ Output ripple with optional filter = 70 mVPP</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="GND100" gate="1" pin="GND"/>
 <pinref part="IC1" gate="G$1" pin="ANODE"/>
 <wire x1="190.5" y1="546.1" x2="190.5" y2="548.64" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="5"/>
@@ -19000,10 +19000,10 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="320.04" y1="495.3" x2="320.04" y2="487.68" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="495.3" x2="320.04" y2="495.3" width="0.1524" layer="91"/>
 <junction x="320.04" y="495.3"/>
-<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="GND101" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="GND102" gate="1" pin="GND"/>
 <pinref part="C42" gate="G$1" pin="2"/>
 <wire x1="505.46" y1="505.46" x2="505.46" y2="510.54" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="510.54" x2="505.46" y2="533.4" width="0.1524" layer="91"/>
