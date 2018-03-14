@@ -17604,6 +17604,95 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=1311"&gt; Datasheet
 </deviceset>
 </devicesets>
 </library>
+<library name="M50-3500542">
+<description>&lt;Header 2x5way DIL VERT Pin HARWIN M50-35 Series, 1.27mm Pitch 10 Way 2 Row Straight PCB Header, Solder Termination, 1A&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="HDRV10W40P127_2X5_635X345X415P">
+<description>&lt;b&gt;M50-3500542&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.75" diameter="1.15" shape="square"/>
+<pad name="3" x="1.27" y="0" drill="0.75" diameter="1.15"/>
+<pad name="5" x="2.54" y="0" drill="0.75" diameter="1.15"/>
+<pad name="7" x="3.81" y="0" drill="0.75" diameter="1.15"/>
+<pad name="9" x="5.08" y="0" drill="0.75" diameter="1.15"/>
+<pad name="2" x="0" y="1.27" drill="0.75" diameter="1.15"/>
+<pad name="4" x="1.27" y="1.27" drill="0.75" diameter="1.15"/>
+<pad name="6" x="2.54" y="1.27" drill="0.75" diameter="1.15"/>
+<pad name="8" x="3.81" y="1.27" drill="0.75" diameter="1.15"/>
+<pad name="10" x="5.08" y="1.27" drill="0.75" diameter="1.15"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.035" y1="-1.39" x2="-1.035" y2="2.66" width="0.05" layer="51"/>
+<wire x1="-1.035" y1="2.66" x2="6.115" y2="2.66" width="0.05" layer="51"/>
+<wire x1="6.115" y1="2.66" x2="6.115" y2="-1.39" width="0.05" layer="51"/>
+<wire x1="6.115" y1="-1.39" x2="-1.035" y2="-1.39" width="0.05" layer="51"/>
+<wire x1="-0.785" y1="-1.14" x2="-0.785" y2="2.41" width="0.1" layer="51"/>
+<wire x1="-0.785" y1="2.41" x2="5.865" y2="2.41" width="0.1" layer="51"/>
+<wire x1="5.865" y1="2.41" x2="5.865" y2="-1.14" width="0.1" layer="51"/>
+<wire x1="5.865" y1="-1.14" x2="-0.785" y2="-1.14" width="0.1" layer="51"/>
+<wire x1="-0.925" y1="0" x2="-0.925" y2="-1.14" width="0.2" layer="21"/>
+<wire x1="-0.925" y1="-1.14" x2="6.005" y2="-1.14" width="0.2" layer="21"/>
+<wire x1="6.005" y1="-1.14" x2="6.005" y2="2.41" width="0.2" layer="21"/>
+<wire x1="6.005" y1="2.41" x2="0" y2="2.41" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="M50-3500542">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="in"/>
+<pin name="3" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="5" x="0" y="-5.08" length="middle" direction="in"/>
+<pin name="7" x="0" y="-7.62" length="middle" direction="in"/>
+<pin name="9" x="0" y="-10.16" length="middle" direction="in"/>
+<pin name="2" x="22.86" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="4" x="22.86" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="6" x="22.86" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="8" x="22.86" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="10" x="22.86" y="-10.16" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="M50-3500542" prefix="J">
+<description>&lt;b&gt;Header 2x5way DIL VERT Pin HARWIN M50-35 Series, 1.27mm Pitch 10 Way 2 Row Straight PCB Header, Solder Termination, 1A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/13d4/0900766b813d4011.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="M50-3500542" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDRV10W40P127_2X5_635X345X415P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Header 2x5way DIL VERT Pin HARWIN M50-35 Series, 1.27mm Pitch 10 Way 2 Row Straight PCB Header, Solder Termination, 1A" constant="no"/>
+<attribute name="HEIGHT" value="4.15mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="HARWIN" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M50-3500542" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="6811184P" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/6811184P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17674,7 +17763,10 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=1311"&gt; Datasheet
 <part name="L4" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="GSOT05C-GS08" deviceset="GSOT05C-GS08" device=""/>
-<part name="U7" library="5002" deviceset="5002" device=""/>
+<part name="TP5" library="5002" deviceset="5002" device=""/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="10K"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J1" library="M50-3500542" deviceset="M50-3500542" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18201,10 +18293,14 @@ Output ripple with optional filter = 70 mVPP</text>
 </sheet>
 <sheet>
 <plain>
-<wire x1="129.54" y1="568.96" x2="1201.42" y2="568.96" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="568.96" x2="129.54" y2="-160.02" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="-160.02" x2="1201.42" y2="-160.02" width="0.1524" layer="97"/>
-<wire x1="1201.42" y1="568.96" x2="1201.42" y2="-160.02" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="568.96" x2="264.16" y2="568.96" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="568.96" x2="129.54" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="439.42" x2="264.16" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="264.16" y1="568.96" x2="264.16" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="568.96" x2="401.32" y2="568.96" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="568.96" x2="266.7" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="439.42" x2="401.32" y2="439.42" width="0.1524" layer="97"/>
+<wire x1="401.32" y1="568.96" x2="401.32" y2="439.42" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="162.56" y="497.84" rot="R180"/>
@@ -18215,7 +18311,10 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="L4" gate="G$1" x="172.72" y="551.18"/>
 <instance part="GND12" gate="1" x="210.82" y="553.72" rot="R180"/>
 <instance part="IC1" gate="G$1" x="210.82" y="510.54" rot="R90"/>
-<instance part="U7" gate="G$1" x="213.36" y="482.6" rot="R270"/>
+<instance part="TP5" gate="G$1" x="213.36" y="482.6" rot="R270"/>
+<instance part="R16" gate="G$1" x="365.76" y="508" rot="R90"/>
+<instance part="GND13" gate="1" x="320.04" y="485.14"/>
+<instance part="J1" gate="G$1" x="325.12" y="500.38"/>
 </instances>
 <busses>
 </busses>
@@ -18287,14 +18386,77 @@ Output ripple with optional filter = 70 mVPP</text>
 <junction x="198.12" y="551.18"/>
 <junction x="210.82" y="551.18"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="325.12" y1="497.84" x2="320.04" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="497.84" x2="320.04" y2="495.3" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="320.04" y1="495.3" x2="320.04" y2="487.68" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="495.3" x2="320.04" y2="495.3" width="0.1524" layer="91"/>
+<junction x="320.04" y="495.3"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="U7" gate="G$1" pin="1"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="482.6" x2="213.36" y2="482.6" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="482.6" x2="236.22" y2="482.6" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="482.6" x2="248.92" y2="482.6" width="0.1524" layer="91"/>
 <junction x="213.36" y="482.6"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="497.84" x2="248.92" y2="497.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="492.76" x2="248.92" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="500.38" x2="365.76" y2="500.38" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="500.38" x2="365.76" y2="502.92" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="500.38" x2="381" y2="500.38" width="0.1524" layer="91"/>
+<junction x="365.76" y="500.38"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="347.98" y1="497.84" x2="381" y2="497.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="347.98" y1="495.3" x2="381" y2="495.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="347.98" y1="492.76" x2="381" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="347.98" y1="490.22" x2="381" y2="490.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="500.38" x2="320.04" y2="500.38" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="500.38" x2="320.04" y2="502.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
