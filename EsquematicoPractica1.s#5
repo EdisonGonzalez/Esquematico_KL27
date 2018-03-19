@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18279,85 +18279,183 @@ Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.p
 </deviceset>
 </devicesets>
 </library>
-<library name="switch" urn="urn:adsk.eagle:library:380">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="EVQPE105K">
+<description>&lt;Tact switch,SMT,SPST,black,1.0N op force Black Push Plate Tactile Switch, SPST-NO 50 mA 5mm&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="RDT1034" urn="urn:adsk.eagle:footprint:27571/1" library_version="1">
-<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
-www.radiohm.com</description>
-<wire x1="-4.4" y1="4.85" x2="4.4" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="4.4" x2="4.85" y2="-4.4" width="0.2032" layer="21"/>
-<wire x1="4.4" y1="-4.85" x2="-4.4" y2="-4.85" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-4.4" x2="-4.85" y2="4.4" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="4.15" x2="3.7" y2="4.15" width="0.2032" layer="21"/>
-<wire x1="4.15" y1="3.7" x2="4.15" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="3.7" y1="-4.15" x2="-3.7" y2="-4.15" width="0.2032" layer="21"/>
-<wire x1="-4.15" y1="-3.7" x2="-4.15" y2="3.7" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="4.4" x2="-4.4" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.15" y1="3.7" x2="-3.7" y2="4.15" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="4.4" x2="4.4" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="4.15" y1="3.7" x2="3.7" y2="4.15" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="-4.4" x2="4.4" y2="-4.85" width="0.2032" layer="21"/>
-<wire x1="4.15" y1="-3.7" x2="3.7" y2="-4.15" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-4.4" x2="-4.4" y2="-4.85" width="0.2032" layer="21"/>
-<wire x1="-4.15" y1="-3.7" x2="-3.7" y2="-4.15" width="0.2032" layer="21"/>
-<pad name="B" x="0.65" y="1.9" drill="0.8"/>
-<pad name="A1" x="-3.175" y="0.635" drill="0.8"/>
-<pad name="A" x="3.175" y="-0.635" drill="0.8"/>
-<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<package name="EVQPE1">
+<description>&lt;b&gt;EVQPE1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.7" y="0" dx="2" dy="1.6" layer="1"/>
+<smd name="2" x="2.7" y="0" dx="2" dy="1.6" layer="1"/>
+<text x="-0.345" y="0.034" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.345" y="0.034" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.254" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="-1.75" width="0.254" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.254" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="1.75" width="0.254" layer="51"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.254" layer="21"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.254" layer="21"/>
+<circle x="-4.234" y="0.102" radius="0.069" width="0.254" layer="25"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="RDT1034" urn="urn:adsk.eagle:package:27704/1" type="box" library_version="1">
-<description>PUSH SWITCH
-www.radiohm.com</description>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="NORMOPEN2-1" urn="urn:adsk.eagle:symbol:27570/1" library_version="1">
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="3.048" y2="-0.762" width="0.2032" layer="94"/>
-<wire x1="3.048" y1="-2.032" x2="3.048" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="3.048" y1="-2.54" x2="5.08" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="-1.524" x2="0.762" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="-0.508" x2="0.762" y2="0.254" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="0.254" x2="0.762" y2="0.508" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="1.016" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
-<wire x1="1.27" y1="1.524" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="1.524" x2="0.254" y2="1.524" width="0.2032" layer="94"/>
-<wire x1="0.254" y1="-0.254" x2="0.762" y2="0.254" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.254" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="0.508" width="0" layer="94"/>
-<text x="-3.048" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-5.588" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="A1" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="B" x="7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<symbol name="EVQPE105K">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="in"/>
+<pin name="2" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RDT1034" urn="urn:adsk.eagle:component:27784/1" prefix="S" library_version="1">
-<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
-www.radiohm.com</description>
+<deviceset name="EVQPE105K" prefix="S">
+<description>&lt;b&gt;Tact switch,SMT,SPST,black,1.0N op force Black Push Plate Tactile Switch, SPST-NO 50 mA 5mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/7561669"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="NORMOPEN2-1" x="0" y="0"/>
+<gate name="G$1" symbol="EVQPE105K" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RDT1034">
+<device name="" package="EVQPE1">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27704/1"/>
-</package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tact switch,SMT,SPST,black,1.0N op force Black Push Plate Tactile Switch, SPST-NO 50 mA 5mm" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EVQPE105K" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7561669" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7561669" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="C0402C104K8PAC">
+<description>&lt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10volts 0.1uF 10% X5R&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPC1005X55N">
+<description>&lt;b&gt;C0402(BB)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
+<smd name="2" x="0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.915" y1="0.46" x2="0.915" y2="0.46" width="0.05" layer="51"/>
+<wire x1="0.915" y1="0.46" x2="0.915" y2="-0.46" width="0.05" layer="51"/>
+<wire x1="0.915" y1="-0.46" x2="-0.915" y2="-0.46" width="0.05" layer="51"/>
+<wire x1="-0.915" y1="-0.46" x2="-0.915" y2="0.46" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="C0402C104K8PAC">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C0402C104K8PAC" prefix="C">
+<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10volts 0.1uF 10% X5R&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C0402C104K8PAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10volts 0.1uF 10% X5R" constant="no"/>
+<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C104K8PAC" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="RK73B1JTTD221J">
+<description>&lt;Thick Film Resistors - SMD 1/10watts 220ohms 5%&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC1608X55N">
+<description>&lt;b&gt;1J(0603)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.8" y="0" dx="0.95" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="0.8" y="0" dx="0.95" dy="0.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RK73B1JTTD221J">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RK73B1JTTD221J" prefix="R">
+<description>&lt;b&gt;Thick Film Resistors - SMD 1/10watts 220ohms 5%&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RK73B1JTTD221J" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/10watts 220ohms 5%" constant="no"/>
+<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="KOA Speer" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RK73B1JTTD221J" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -18444,11 +18542,14 @@ www.radiohm.com</description>
 <part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R81" library="RK73H1JLTD1005F" deviceset="RK73H1JLTD1005F" device="" value="10M"/>
 <part name="U7" library="TLV274QPWRG4Q1" deviceset="TLV274QPWRG4Q1" device=""/>
-<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device="" value="+3V3"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="220"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="RDT1034" device="" package3d_urn="urn:adsk.eagle:package:27704/1"/>
+<part name="S1" library="EVQPE105K" deviceset="EVQPE105K" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C5" library="C0402C104K8PAC" deviceset="C0402C104K8PAC" device=""/>
+<part name="C6" library="C0402C104K8PAC" deviceset="C0402C104K8PAC" device=""/>
+<part name="R15" library="RK73B1JTTD221J" deviceset="RK73B1JTTD221J" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18495,18 +18596,17 @@ Output ripple with optional filter = 70 mVPP</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="97">Entrada Digital con LED indicador Optoacoplada</text>
 <wire x1="-5.08" y1="-78.74" x2="-15.24" y2="-78.74" width="0.1524" layer="97"/>
 <wire x1="-15.24" y1="-78.74" x2="-15.24" y2="-15.24" width="0.1524" layer="97"/>
-<wire x1="33.02" y1="-101.6" x2="-12.5476" y2="-101.6" width="0.1524" layer="97"/>
-<wire x1="33.02" y1="-165.1" x2="33.02" y2="-101.6" width="0.1524" layer="97"/>
-<wire x1="33.02" y1="-165.1" x2="-2.3876" y2="-165.1" width="0.1524" layer="97"/>
-<wire x1="-2.54" y1="-165.1" x2="-12.7" y2="-165.1" width="0.1524" layer="97"/>
-<wire x1="-12.7" y1="-165.1" x2="-12.7" y2="-101.6" width="0.1524" layer="97"/>
+<wire x1="33.02" y1="-104.14" x2="-12.5476" y2="-104.14" width="0.1524" layer="97"/>
+<wire x1="33.02" y1="-170.18" x2="33.02" y2="-104.14" width="0.1524" layer="97"/>
+<wire x1="33.02" y1="-170.18" x2="-2.3876" y2="-170.18" width="0.1524" layer="97"/>
+<wire x1="-2.54" y1="-170.18" x2="-12.7" y2="-170.18" width="0.1524" layer="97"/>
+<wire x1="-12.7" y1="-170.18" x2="-12.7" y2="-104.14" width="0.1524" layer="97"/>
 <text x="-10.16" y="-99.06" size="1.778" layer="97">LED indicador de polarización</text>
-<wire x1="124.46" y1="-99.06" x2="78.8924" y2="-99.06" width="0.1524" layer="97"/>
-<wire x1="124.46" y1="-162.56" x2="124.46" y2="-99.06" width="0.1524" layer="97"/>
-<wire x1="124.46" y1="-162.56" x2="89.0524" y2="-162.56" width="0.1524" layer="97"/>
-<wire x1="88.9" y1="-162.56" x2="78.74" y2="-162.56" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="-162.56" x2="78.74" y2="-99.06" width="0.1524" layer="97"/>
-<text x="81.28" y="-96.52" size="1.778" layer="97">Pulsador de RST</text>
+<wire x1="170.18" y1="-91.44" x2="78.8924" y2="-91.44" width="0.1524" layer="97"/>
+<wire x1="170.18" y1="-170.18" x2="170.18" y2="-91.44" width="0.1524" layer="97"/>
+<wire x1="170.18" y1="-170.18" x2="78.8924" y2="-170.18" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="-170.18" x2="78.74" y2="-91.44" width="0.1524" layer="97"/>
+<text x="81.28" y="-86.36" size="1.778" layer="97">Pulsador de RST</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="33.02" y="302.26"/>
@@ -18572,13 +18672,14 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND11" gate="1" x="104.14" y="-73.66"/>
 <instance part="OUT2" gate="-1" x="129.54" y="-55.88" rot="R180"/>
 <instance part="3.3V1" gate="-1" x="114.3" y="-27.94" rot="R270"/>
-<instance part="SUPPLY2" gate="+5V" x="5.08" y="-116.84" smashed="yes">
-<attribute name="VALUE" x="3.175" y="-118.745" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R14" gate="G$1" x="5.08" y="-132.08" rot="R90"/>
-<instance part="LED3" gate="G$1" x="5.08" y="-144.78"/>
-<instance part="GND12" gate="1" x="5.08" y="-157.48"/>
-<instance part="S1" gate="G$1" x="96.52" y="-121.92"/>
+<instance part="LED3" gate="G$1" x="5.08" y="-152.4"/>
+<instance part="GND12" gate="1" x="5.08" y="-162.56"/>
+<instance part="S1" gate="G$1" x="99.06" y="-129.54"/>
+<instance part="GND13" gate="1" x="91.44" y="-147.32"/>
+<instance part="GND14" gate="1" x="137.16" y="-160.02"/>
+<instance part="C5" gate="G$1" x="137.16" y="-124.46" rot="R90"/>
+<instance part="C6" gate="G$1" x="137.16" y="-152.4" rot="R90"/>
+<instance part="R15" gate="G$1" x="5.08" y="-144.78" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -18647,7 +18748,18 @@ Output ripple with optional filter = 70 mVPP</text>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="5.08" y1="-154.94" x2="5.08" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-160.02" x2="5.08" y2="-157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="91.44" y1="-144.78" x2="91.44" y2="-129.54" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="-129.54" x2="99.06" y2="-129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="137.16" y1="-152.4" x2="137.16" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18725,11 +18837,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="160.02" y1="132.08" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
 <junction x="160.02" y="137.16"/>
 <pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
-<wire x1="5.08" y1="-127" x2="5.08" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -19003,8 +19110,38 @@ Output ripple with optional filter = 70 mVPP</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="-142.24" x2="5.08" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-149.86" x2="5.08" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="PTA20" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PTA20"/>
+<wire x1="144.78" y1="226.06" x2="157.48" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="226.06" x2="157.48" y2="226.06" width="0.1524" layer="91"/>
+<label x="165.1" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="-129.54" x2="137.16" y2="-129.54" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="-129.54" x2="137.16" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="-129.54" x2="137.16" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="137.16" y="-129.54"/>
+<wire x1="137.16" y1="-129.54" x2="144.78" y2="-129.54" width="0.1524" layer="91"/>
+<label x="147.32" y="-129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="-111.76" x2="137.16" y2="-104.14" width="0.1524" layer="91"/>
+<label x="137.16" y="-101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="5.08" y1="-127" x2="5.08" y2="-119.38" width="0.1524" layer="91"/>
+<label x="5.08" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

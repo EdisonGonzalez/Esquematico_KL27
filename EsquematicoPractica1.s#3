@@ -18523,6 +18523,112 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6
 </deviceset>
 </devicesets>
 </library>
+<library name="MIKROE-971">
+<description>&lt;MIKROELEKTRONIKA - MIKROE-971 - ADD-ON-BOARD, ETH CLICK MIKROBUS&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MIKROE-971_1">
+<description>&lt;b&gt;MIKROE-971&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-11.43" y="21.59" drill="0.889" diameter="1.35"/>
+<pad name="2" x="-11.43" y="19.05" drill="0.889" diameter="1.35"/>
+<pad name="3" x="-11.43" y="16.51" drill="0.889" diameter="1.35"/>
+<pad name="4" x="-11.43" y="13.97" drill="0.889" diameter="1.35"/>
+<pad name="5" x="-11.43" y="11.43" drill="0.889" diameter="1.35"/>
+<pad name="6" x="-11.43" y="8.89" drill="0.889" diameter="1.35"/>
+<pad name="7" x="-11.43" y="6.35" drill="0.889" diameter="1.35"/>
+<pad name="8" x="-11.43" y="3.81" drill="0.889" diameter="1.35"/>
+<pad name="9" x="11.43" y="3.81" drill="0.889" diameter="1.35"/>
+<pad name="10" x="11.43" y="6.35" drill="0.889" diameter="1.35"/>
+<pad name="11" x="11.43" y="8.89" drill="0.889" diameter="1.35"/>
+<pad name="12" x="11.43" y="11.43" drill="0.889" diameter="1.35"/>
+<pad name="13" x="11.43" y="13.97" drill="0.889" diameter="1.35"/>
+<pad name="14" x="11.43" y="16.51" drill="0.889" diameter="1.35"/>
+<pad name="15" x="11.43" y="19.05" drill="0.889" diameter="1.35"/>
+<pad name="16" x="11.43" y="21.59" drill="0.889" diameter="1.35"/>
+<text x="-0.936" y="21.895" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.936" y="21.895" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="-13.813" y="21.669" radius="0.062" width="0.2" layer="25"/>
+<wire x1="-12.7" y1="42.9" x2="12.7" y2="42.9" width="0.2" layer="51"/>
+<wire x1="12.7" y1="42.9" x2="12.7" y2="2.54" width="0.2" layer="51"/>
+<wire x1="12.7" y1="2.54" x2="10.16" y2="0" width="0.2" layer="51"/>
+<wire x1="10.16" y1="0" x2="-12.7" y2="0" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="42.9" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="42.9" width="0.2" layer="21"/>
+<wire x1="-12.7" y1="42.9" x2="12.7" y2="42.9" width="0.2" layer="21"/>
+<wire x1="12.7" y1="42.9" x2="12.7" y2="2.54" width="0.2" layer="21"/>
+<wire x1="12.7" y1="2.54" x2="10.16" y2="0" width="0.2" layer="21"/>
+<wire x1="10.16" y1="0" x2="-12.7" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MIKROE-971">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="AN" x="0" y="0" length="middle" direction="in"/>
+<pin name="RST" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="CS" x="0" y="-5.08" length="middle" direction="in"/>
+<pin name="SCK" x="0" y="-7.62" length="middle" direction="in"/>
+<pin name="SDO" x="0" y="-10.16" length="middle" direction="in"/>
+<pin name="SDI" x="0" y="-12.7" length="middle" direction="in"/>
+<pin name="3V3" x="0" y="-15.24" length="middle" direction="in"/>
+<pin name="GND(1)" x="0" y="-17.78" length="middle" direction="in"/>
+<pin name="GND(2)" x="33.02" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="5V" x="33.02" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="33.02" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SCL" x="33.02" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="RX" x="33.02" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="TX" x="33.02" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="INT" x="33.02" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="PWM" x="33.02" y="-17.78" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MIKROE-971" prefix="U">
+<description>&lt;b&gt;MIKROELEKTRONIKA - MIKROE-971 - ADD-ON-BOARD, ETH CLICK MIKROBUS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/1998794.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MIKROE-971" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MIKROE-971_1">
+<connects>
+<connect gate="G$1" pin="3V3" pad="7"/>
+<connect gate="G$1" pin="5V" pad="10"/>
+<connect gate="G$1" pin="AN" pad="1"/>
+<connect gate="G$1" pin="CS" pad="3"/>
+<connect gate="G$1" pin="GND(1)" pad="8"/>
+<connect gate="G$1" pin="GND(2)" pad="9"/>
+<connect gate="G$1" pin="INT" pad="15"/>
+<connect gate="G$1" pin="PWM" pad="16"/>
+<connect gate="G$1" pin="RST" pad="2"/>
+<connect gate="G$1" pin="RX" pad="13"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="12"/>
+<connect gate="G$1" pin="SDA" pad="11"/>
+<connect gate="G$1" pin="SDI" pad="6"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="TX" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="MIKROELEKTRONIKA - MIKROE-971 - ADD-ON-BOARD, ETH CLICK MIKROBUS" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="MIKROELEKTRONIKA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIKROE-971" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7916432" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7916432" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18617,6 +18723,7 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R101" library="RC0402FR-0733RL" deviceset="RC0402FR-0733RL" device="" value="33"/>
 <part name="R100" library="RC0402FR-0733RL" deviceset="RC0402FR-0733RL" device="" value="33"/>
+<part name="U7" library="MIKROE-971" deviceset="MIKROE-971" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18663,12 +18770,12 @@ Output ripple with optional filter = 70 mVPP</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="97">Entrada Digital con LED indicador Optoacoplada</text>
 <wire x1="-5.08" y1="-78.74" x2="-15.24" y2="-78.74" width="0.1524" layer="97"/>
 <wire x1="-15.24" y1="-78.74" x2="-15.24" y2="-15.24" width="0.1524" layer="97"/>
-<wire x1="33.02" y1="-104.14" x2="-12.5476" y2="-104.14" width="0.1524" layer="97"/>
-<wire x1="33.02" y1="-170.18" x2="33.02" y2="-104.14" width="0.1524" layer="97"/>
-<wire x1="33.02" y1="-170.18" x2="-2.3876" y2="-170.18" width="0.1524" layer="97"/>
-<wire x1="-2.54" y1="-170.18" x2="-12.7" y2="-170.18" width="0.1524" layer="97"/>
-<wire x1="-12.7" y1="-170.18" x2="-12.7" y2="-104.14" width="0.1524" layer="97"/>
-<text x="-10.16" y="-99.06" size="1.778" layer="97">LED indicador de polarización</text>
+<wire x1="63.5" y1="-93.98" x2="17.9324" y2="-93.98" width="0.1524" layer="97"/>
+<wire x1="63.5" y1="-160.02" x2="63.5" y2="-93.98" width="0.1524" layer="97"/>
+<wire x1="63.5" y1="-160.02" x2="28.0924" y2="-160.02" width="0.1524" layer="97"/>
+<wire x1="27.94" y1="-160.02" x2="17.78" y2="-160.02" width="0.1524" layer="97"/>
+<wire x1="17.78" y1="-160.02" x2="17.78" y2="-93.98" width="0.1524" layer="97"/>
+<text x="20.32" y="-88.9" size="1.778" layer="97">LED indicador de polarización</text>
 <wire x1="170.18" y1="-91.44" x2="78.8924" y2="-91.44" width="0.1524" layer="97"/>
 <wire x1="170.18" y1="-170.18" x2="170.18" y2="-91.44" width="0.1524" layer="97"/>
 <wire x1="170.18" y1="-170.18" x2="78.8924" y2="-170.18" width="0.1524" layer="97"/>
@@ -18694,6 +18801,12 @@ Output ripple with optional filter = 70 mVPP</text>
 <text x="350.52" y="60.96" size="1.778" layer="97">OpenSDA INTERFACE JTAG CONNECTOR</text>
 <text x="490.22" y="60.96" size="1.778" layer="97">32KHz CLK</text>
 <text x="213.36" y="-73.66" size="1.778" layer="97">2 ENTRADAS 0-10 V CON AISLAMIENTO DE IMPEDANCIAS</text>
+<wire x1="2.54" y1="-93.98" x2="-70.9676" y2="-93.98" width="0.1524" layer="97"/>
+<wire x1="2.54" y1="-160.02" x2="2.54" y2="-93.98" width="0.1524" layer="97"/>
+<wire x1="2.54" y1="-160.02" x2="-60.8076" y2="-160.02" width="0.1524" layer="97"/>
+<wire x1="-60.96" y1="-160.02" x2="-71.12" y2="-160.02" width="0.1524" layer="97"/>
+<wire x1="-71.12" y1="-160.02" x2="-71.12" y2="-93.98" width="0.1524" layer="97"/>
+<text x="-68.58" y="-91.44" size="1.778" layer="97">Conexión de mikroBUS</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="33.02" y="302.26"/>
@@ -18759,14 +18872,14 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND11" gate="1" x="104.14" y="-73.66"/>
 <instance part="OUT2" gate="-1" x="129.54" y="-55.88" rot="R180"/>
 <instance part="3.3V1" gate="-1" x="114.3" y="-27.94" rot="R270"/>
-<instance part="LED3" gate="G$1" x="5.08" y="-152.4"/>
-<instance part="GND12" gate="1" x="5.08" y="-162.56"/>
+<instance part="LED3" gate="G$1" x="35.56" y="-142.24"/>
+<instance part="GND12" gate="1" x="35.56" y="-152.4"/>
 <instance part="S1" gate="G$1" x="99.06" y="-129.54"/>
 <instance part="GND13" gate="1" x="91.44" y="-147.32"/>
 <instance part="GND14" gate="1" x="137.16" y="-160.02"/>
 <instance part="C5" gate="G$1" x="137.16" y="-124.46" rot="R90"/>
 <instance part="C6" gate="G$1" x="137.16" y="-152.4" rot="R90"/>
-<instance part="R15" gate="G$1" x="5.08" y="-144.78" rot="R90"/>
+<instance part="R15" gate="G$1" x="35.56" y="-134.62" rot="R90"/>
 <instance part="X1" gate="G$1" x="220.98" y="2.54" rot="R180"/>
 <instance part="X1" gate="S" x="220.98" y="12.7" rot="R180"/>
 <instance part="L5" gate="G$1" x="243.84" y="-12.7"/>
@@ -18791,6 +18904,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND28" gate="1" x="342.9" y="-139.7"/>
 <instance part="R101" gate="G$1" x="276.86" y="2.54"/>
 <instance part="R100" gate="G$1" x="281.94" y="-7.62"/>
+<instance part="U7" gate="G$1" x="-53.34" y="-114.3"/>
 </instances>
 <busses>
 </busses>
@@ -18859,7 +18973,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="5.08" y1="-160.02" x2="5.08" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-149.86" x2="35.56" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -19264,7 +19378,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="5.08" y1="-149.86" x2="5.08" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-139.7" x2="35.56" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -19294,8 +19408,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="137.16" y="-101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="5.08" y1="-127" x2="5.08" y2="-119.38" width="0.1524" layer="91"/>
-<label x="5.08" y="-116.84" size="1.778" layer="95"/>
+<wire x1="35.56" y1="-116.84" x2="35.56" y2="-109.22" width="0.1524" layer="91"/>
+<label x="35.56" y="-106.68" size="1.778" layer="95"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
