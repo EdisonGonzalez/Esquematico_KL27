@@ -22614,7 +22614,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="SUPPLY4" gate="G$1" x="-218.44" y="-261.62" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-216.535" y="-258.445" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IN_CORRIENTE_4-20" gate="G$1" x="-276.86" y="-198.12"/>
+<instance part="IN_CORRIENTE_4-20" gate="G$1" x="-284.48" y="-198.12"/>
 <instance part="IC5" gate="G$1" x="-12.7" y="-198.12"/>
 <instance part="IC6" gate="G$1" x="106.68" y="-238.76"/>
 <instance part="IC7" gate="G$1" x="116.84" y="-200.66"/>
@@ -23647,7 +23647,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <segment>
 <pinref part="IN_CORRIENTE_4-20" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="-IN"/>
-<wire x1="-279.4" y1="-198.12" x2="-254" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="-198.12" x2="-254" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
