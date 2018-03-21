@@ -21513,358 +21513,6 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6
 </deviceset>
 </devicesets>
 </library>
-<library name="mikrobus_lib">
-<packages>
-<package name="MIKROE_BUS_MINI">
-<pad name="P$1" x="1.27" y="21.59" drill="0.889" diameter="1.6764" shape="square"/>
-<pad name="P$2" x="1.27" y="19.05" drill="0.889" diameter="1.524"/>
-<pad name="P$3" x="1.27" y="16.51" drill="0.889" diameter="1.524"/>
-<pad name="P$4" x="1.27" y="13.97" drill="0.889" diameter="1.524"/>
-<pad name="P$5" x="1.27" y="11.43" drill="0.889" diameter="1.524"/>
-<pad name="P$6" x="1.27" y="8.89" drill="0.889" diameter="1.524"/>
-<pad name="P$7" x="1.27" y="6.35" drill="0.889" diameter="1.524"/>
-<pad name="P$8" x="1.27" y="3.81" drill="0.889" diameter="1.524"/>
-<pad name="P$9" x="24.13" y="3.81" drill="0.889" diameter="1.524"/>
-<pad name="P$10" x="24.13" y="6.35" drill="0.889" diameter="1.524"/>
-<pad name="P$11" x="24.13" y="8.89" drill="0.889" diameter="1.524"/>
-<pad name="P$12" x="24.13" y="11.43" drill="0.889" diameter="1.524"/>
-<pad name="P$13" x="24.13" y="13.97" drill="0.889" diameter="1.524"/>
-<pad name="P$14" x="24.13" y="16.51" drill="0.889" diameter="1.524"/>
-<pad name="P$15" x="24.13" y="19.05" drill="0.889" diameter="1.524"/>
-<pad name="P$16" x="24.13" y="21.59" drill="0.889" diameter="1.524" shape="square"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="2.54" y1="20.32" x2="2.54" y2="22.86" width="0.127" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="22.86" width="0.127" layer="21"/>
-<wire x1="22.86" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="21"/>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-<wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.127" layer="21"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="21"/>
-<wire x1="0" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="20"/>
-<text x="3.81" y="20.955" size="1.27" layer="21">AN</text>
-<text x="3.6576" y="18.415" size="1.27" layer="21">RST</text>
-<text x="3.81" y="15.875" size="1.27" layer="21">CS</text>
-<text x="3.81" y="13.335" size="1.27" layer="21">SCK</text>
-<text x="3.81" y="10.795" size="1.27" layer="21">MISO</text>
-<text x="3.81" y="8.255" size="1.27" layer="21">MOSI</text>
-<text x="3.81" y="5.715" size="1.27" layer="21">+3V3</text>
-<text x="3.81" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.2118" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.3896" y="5.715" size="1.27" layer="21">+5V</text>
-<text x="18.4658" y="8.255" size="1.27" layer="21">SDA</text>
-<text x="18.796" y="10.795" size="1.27" layer="21">SCL</text>
-<text x="19.685" y="13.335" size="1.27" layer="21">TX</text>
-<text x="19.6342" y="15.875" size="1.27" layer="21">RX</text>
-<text x="18.8722" y="18.415" size="1.27" layer="21">INT</text>
-<text x="17.9324" y="20.828" size="1.27" layer="21">PWM</text>
-<wire x1="16.764" y1="23.1648" x2="15.748" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="14.605" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="13.462" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="12.319" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="16.764" y1="23.1648" x2="16.764" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="14.605" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="12.319" y1="23.1648" x2="12.319" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="15.748" y2="24.8158" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="13.462" y2="24.8158" width="0.3048" layer="22"/>
-<circle x="15.748" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<circle x="16.764" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="14.605" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="12.319" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="13.462" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<text x="11.1252" y="21.4376" size="1.6764" layer="22" ratio="14" distance="30" rot="MR0">mikro
-BUS</text>
-<text x="5.9436" y="20.955" size="1.27" layer="22" rot="MR0">AN</text>
-<text x="6.8326" y="18.415" size="1.27" layer="22" rot="MR0">RST</text>
-<text x="5.842" y="15.9004" size="1.27" layer="22" rot="MR0">CS</text>
-<text x="6.9596" y="13.335" size="1.27" layer="22" rot="MR0">SCK</text>
-<text x="8.0772" y="10.8204" size="1.27" layer="22" rot="MR0">MISO</text>
-<text x="8.0518" y="8.255" size="1.27" layer="22" rot="MR0">MOSI</text>
-<text x="8.0264" y="5.7404" size="1.27" layer="22" rot="MR0">+3V3</text>
-<text x="7.366" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="5.715" size="1.27" layer="22" rot="MR0">+5V</text>
-<text x="21.9202" y="8.255" size="1.27" layer="22" rot="MR0">SDA</text>
-<text x="21.9202" y="10.795" size="1.27" layer="22" rot="MR0">SCL</text>
-<text x="21.9202" y="13.335" size="1.27" layer="22" rot="MR0">TX</text>
-<text x="21.8948" y="15.875" size="1.27" layer="22" rot="MR0">RX</text>
-<text x="21.8948" y="18.415" size="1.27" layer="22" rot="MR0">INT</text>
-<text x="21.8948" y="20.828" size="1.27" layer="22" rot="MR0">PWM</text>
-<wire x1="22.86" y1="0" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="26.035" width="0.127" layer="20"/>
-<wire x1="0" y1="26.035" x2="25.4" y2="26.035" width="0.127" layer="20"/>
-<wire x1="25.4" y1="26.035" x2="25.4" y2="22.86" width="0.127" layer="20"/>
-</package>
-<package name="MIKROE_BUS_MIDI">
-<pad name="P$1" x="1.27" y="21.59" drill="0.889" diameter="1.6764" shape="square"/>
-<pad name="P$2" x="1.27" y="19.05" drill="0.889" diameter="1.524"/>
-<pad name="P$3" x="1.27" y="16.51" drill="0.889" diameter="1.524"/>
-<pad name="P$4" x="1.27" y="13.97" drill="0.889" diameter="1.524"/>
-<pad name="P$5" x="1.27" y="11.43" drill="0.889" diameter="1.524"/>
-<pad name="P$6" x="1.27" y="8.89" drill="0.889" diameter="1.524"/>
-<pad name="P$7" x="1.27" y="6.35" drill="0.889" diameter="1.524"/>
-<pad name="P$8" x="1.27" y="3.81" drill="0.889" diameter="1.524"/>
-<pad name="P$9" x="24.13" y="3.81" drill="0.889" diameter="1.524"/>
-<pad name="P$10" x="24.13" y="6.35" drill="0.889" diameter="1.524"/>
-<pad name="P$11" x="24.13" y="8.89" drill="0.889" diameter="1.524"/>
-<pad name="P$12" x="24.13" y="11.43" drill="0.889" diameter="1.524"/>
-<pad name="P$13" x="24.13" y="13.97" drill="0.889" diameter="1.524"/>
-<pad name="P$14" x="24.13" y="16.51" drill="0.889" diameter="1.524"/>
-<pad name="P$15" x="24.13" y="19.05" drill="0.889" diameter="1.524"/>
-<pad name="P$16" x="24.13" y="21.59" drill="0.889" diameter="1.524" shape="square"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="2.54" y1="20.32" x2="2.54" y2="22.86" width="0.127" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="22.86" width="0.127" layer="21"/>
-<wire x1="22.86" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="21"/>
-<wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.127" layer="21"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="21"/>
-<wire x1="0" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="20"/>
-<text x="3.81" y="20.955" size="1.27" layer="21">AN</text>
-<text x="3.6576" y="18.415" size="1.27" layer="21">RST</text>
-<text x="3.81" y="15.875" size="1.27" layer="21">CS</text>
-<text x="3.81" y="13.335" size="1.27" layer="21">SCK</text>
-<text x="3.81" y="10.795" size="1.27" layer="21">MISO</text>
-<text x="3.81" y="8.255" size="1.27" layer="21">MOSI</text>
-<text x="3.81" y="5.715" size="1.27" layer="21">+3V3</text>
-<text x="3.81" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.2118" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.3896" y="5.715" size="1.27" layer="21">+5V</text>
-<text x="18.4658" y="8.255" size="1.27" layer="21">SDA</text>
-<text x="18.796" y="10.795" size="1.27" layer="21">SCL</text>
-<text x="19.685" y="13.335" size="1.27" layer="21">TX</text>
-<text x="19.6342" y="15.875" size="1.27" layer="21">RX</text>
-<text x="18.8722" y="18.415" size="1.27" layer="21">INT</text>
-<text x="17.9324" y="20.828" size="1.27" layer="21">PWM</text>
-<wire x1="16.764" y1="23.1648" x2="15.748" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="14.605" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="13.462" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="12.319" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="16.764" y1="23.1648" x2="16.764" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="14.605" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="12.319" y1="23.1648" x2="12.319" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="15.748" y2="24.8158" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="13.462" y2="24.8158" width="0.3048" layer="22"/>
-<circle x="15.748" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<circle x="16.764" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="14.605" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="12.319" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="13.462" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<text x="11.1252" y="21.4376" size="1.6764" layer="22" ratio="14" distance="30" rot="MR0">mikro
-BUS</text>
-<text x="5.9436" y="20.955" size="1.27" layer="22" rot="MR0">AN</text>
-<text x="6.8326" y="18.415" size="1.27" layer="22" rot="MR0">RST</text>
-<text x="5.842" y="15.9004" size="1.27" layer="22" rot="MR0">CS</text>
-<text x="6.9596" y="13.335" size="1.27" layer="22" rot="MR0">SCK</text>
-<text x="8.0772" y="10.8204" size="1.27" layer="22" rot="MR0">MISO</text>
-<text x="8.0518" y="8.255" size="1.27" layer="22" rot="MR0">MOSI</text>
-<text x="8.0264" y="5.7404" size="1.27" layer="22" rot="MR0">+3V3</text>
-<text x="7.366" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="5.715" size="1.27" layer="22" rot="MR0">+5V</text>
-<text x="21.9202" y="8.255" size="1.27" layer="22" rot="MR0">SDA</text>
-<text x="21.9202" y="10.795" size="1.27" layer="22" rot="MR0">SCL</text>
-<text x="21.9202" y="13.335" size="1.27" layer="22" rot="MR0">TX</text>
-<text x="21.8948" y="15.875" size="1.27" layer="22" rot="MR0">RX</text>
-<text x="21.8948" y="18.415" size="1.27" layer="22" rot="MR0">INT</text>
-<text x="21.8948" y="20.828" size="1.27" layer="22" rot="MR0">PWM</text>
-<wire x1="22.86" y1="0" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="43.18" width="0.127" layer="20"/>
-<wire x1="0" y1="43.18" x2="25.4" y2="43.18" width="0.127" layer="20"/>
-<wire x1="25.4" y1="43.18" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-</package>
-<package name="MIKROE_BUS_LARGE">
-<pad name="P$1" x="1.27" y="21.59" drill="0.889" diameter="1.6764" shape="square"/>
-<pad name="P$2" x="1.27" y="19.05" drill="0.889" diameter="1.524"/>
-<pad name="P$3" x="1.27" y="16.51" drill="0.889" diameter="1.524"/>
-<pad name="P$4" x="1.27" y="13.97" drill="0.889" diameter="1.524"/>
-<pad name="P$5" x="1.27" y="11.43" drill="0.889" diameter="1.524"/>
-<pad name="P$6" x="1.27" y="8.89" drill="0.889" diameter="1.524"/>
-<pad name="P$7" x="1.27" y="6.35" drill="0.889" diameter="1.524"/>
-<pad name="P$8" x="1.27" y="3.81" drill="0.889" diameter="1.524"/>
-<pad name="P$9" x="24.13" y="3.81" drill="0.889" diameter="1.524"/>
-<pad name="P$10" x="24.13" y="6.35" drill="0.889" diameter="1.524"/>
-<pad name="P$11" x="24.13" y="8.89" drill="0.889" diameter="1.524"/>
-<pad name="P$12" x="24.13" y="11.43" drill="0.889" diameter="1.524"/>
-<pad name="P$13" x="24.13" y="13.97" drill="0.889" diameter="1.524"/>
-<pad name="P$14" x="24.13" y="16.51" drill="0.889" diameter="1.524"/>
-<pad name="P$15" x="24.13" y="19.05" drill="0.889" diameter="1.524"/>
-<pad name="P$16" x="24.13" y="21.59" drill="0.889" diameter="1.524" shape="square"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="2.54" y1="20.32" x2="2.54" y2="22.86" width="0.127" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="22.86" width="0.127" layer="21"/>
-<wire x1="22.86" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="21"/>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-<wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.127" layer="21"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.127" layer="21"/>
-<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="21"/>
-<wire x1="0" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="20"/>
-<text x="3.81" y="20.955" size="1.27" layer="21">AN</text>
-<text x="3.6576" y="18.415" size="1.27" layer="21">RST</text>
-<text x="3.81" y="15.875" size="1.27" layer="21">CS</text>
-<text x="3.81" y="13.335" size="1.27" layer="21">SCK</text>
-<text x="3.81" y="10.795" size="1.27" layer="21">MISO</text>
-<text x="3.81" y="8.255" size="1.27" layer="21">MOSI</text>
-<text x="3.81" y="5.715" size="1.27" layer="21">+3V3</text>
-<text x="3.81" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.2118" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.3896" y="5.715" size="1.27" layer="21">+5V</text>
-<text x="18.4658" y="8.255" size="1.27" layer="21">SDA</text>
-<text x="18.796" y="10.795" size="1.27" layer="21">SCL</text>
-<text x="19.685" y="13.335" size="1.27" layer="21">TX</text>
-<text x="19.6342" y="15.875" size="1.27" layer="21">RX</text>
-<text x="18.8722" y="18.415" size="1.27" layer="21">INT</text>
-<text x="17.9324" y="20.828" size="1.27" layer="21">PWM</text>
-<wire x1="16.764" y1="23.1648" x2="15.748" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="14.605" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="13.462" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="12.319" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="16.764" y1="23.1648" x2="16.764" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="14.605" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="12.319" y1="23.1648" x2="12.319" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="15.748" y2="24.8158" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="13.462" y2="24.8158" width="0.3048" layer="22"/>
-<circle x="15.748" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<circle x="16.764" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="14.605" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="12.319" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="13.462" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<text x="11.1252" y="21.4376" size="1.6764" layer="22" ratio="14" distance="30" rot="MR0">mikro
-BUS</text>
-<text x="5.9436" y="20.955" size="1.27" layer="22" rot="MR0">AN</text>
-<text x="6.8326" y="18.415" size="1.27" layer="22" rot="MR0">RST</text>
-<text x="5.842" y="15.9004" size="1.27" layer="22" rot="MR0">CS</text>
-<text x="6.9596" y="13.335" size="1.27" layer="22" rot="MR0">SCK</text>
-<text x="8.0772" y="10.8204" size="1.27" layer="22" rot="MR0">MISO</text>
-<text x="8.0518" y="8.255" size="1.27" layer="22" rot="MR0">MOSI</text>
-<text x="8.0264" y="5.7404" size="1.27" layer="22" rot="MR0">+3V3</text>
-<text x="7.366" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="5.715" size="1.27" layer="22" rot="MR0">+5V</text>
-<text x="21.9202" y="8.255" size="1.27" layer="22" rot="MR0">SDA</text>
-<text x="21.9202" y="10.795" size="1.27" layer="22" rot="MR0">SCL</text>
-<text x="21.9202" y="13.335" size="1.27" layer="22" rot="MR0">TX</text>
-<text x="21.8948" y="15.875" size="1.27" layer="22" rot="MR0">RX</text>
-<text x="21.8948" y="18.415" size="1.27" layer="22" rot="MR0">INT</text>
-<text x="21.8948" y="20.828" size="1.27" layer="22" rot="MR0">PWM</text>
-<wire x1="22.86" y1="0" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="57.15" width="0.127" layer="20"/>
-<wire x1="0" y1="57.15" x2="25.4" y2="57.15" width="0.127" layer="20"/>
-<wire x1="25.4" y1="57.15" x2="25.4" y2="22.86" width="0.127" layer="20"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MIKROE_CLICK">
-<wire x1="-15.24" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
-<pin name="AN" x="-20.32" y="15.24" length="middle"/>
-<pin name="RST" x="-20.32" y="10.16" length="middle"/>
-<pin name="CS" x="-20.32" y="5.08" length="middle"/>
-<pin name="SCK" x="-20.32" y="0" length="middle"/>
-<pin name="MISO" x="-20.32" y="-5.08" length="middle"/>
-<pin name="MOSI" x="-20.32" y="-10.16" length="middle"/>
-<pin name="3V3" x="-20.32" y="-15.24" length="middle"/>
-<pin name="GND1" x="-20.32" y="-20.32" length="middle"/>
-<pin name="GND2" x="17.78" y="-20.32" length="middle" rot="R180"/>
-<pin name="5V" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="SDA" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="SCL" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="TX" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="RX" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="INT" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="PWM" x="17.78" y="15.24" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MIKROE_CLICK">
-<gates>
-<gate name="G$1" symbol="MIKROE_CLICK" x="15.24" y="22.86"/>
-</gates>
-<devices>
-<device name="MINI" package="MIKROE_BUS_MINI">
-<connects>
-<connect gate="G$1" pin="3V3" pad="P$7"/>
-<connect gate="G$1" pin="5V" pad="P$10"/>
-<connect gate="G$1" pin="AN" pad="P$1"/>
-<connect gate="G$1" pin="CS" pad="P$3"/>
-<connect gate="G$1" pin="GND1" pad="P$8"/>
-<connect gate="G$1" pin="GND2" pad="P$9"/>
-<connect gate="G$1" pin="INT" pad="P$15"/>
-<connect gate="G$1" pin="MISO" pad="P$5"/>
-<connect gate="G$1" pin="MOSI" pad="P$6"/>
-<connect gate="G$1" pin="PWM" pad="P$16"/>
-<connect gate="G$1" pin="RST" pad="P$2"/>
-<connect gate="G$1" pin="RX" pad="P$14"/>
-<connect gate="G$1" pin="SCK" pad="P$4"/>
-<connect gate="G$1" pin="SCL" pad="P$12"/>
-<connect gate="G$1" pin="SDA" pad="P$11"/>
-<connect gate="G$1" pin="TX" pad="P$13"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MIDI" package="MIKROE_BUS_MIDI">
-<connects>
-<connect gate="G$1" pin="3V3" pad="P$7"/>
-<connect gate="G$1" pin="5V" pad="P$10"/>
-<connect gate="G$1" pin="AN" pad="P$1"/>
-<connect gate="G$1" pin="CS" pad="P$3"/>
-<connect gate="G$1" pin="GND1" pad="P$8"/>
-<connect gate="G$1" pin="GND2" pad="P$9"/>
-<connect gate="G$1" pin="INT" pad="P$15"/>
-<connect gate="G$1" pin="MISO" pad="P$5"/>
-<connect gate="G$1" pin="MOSI" pad="P$6"/>
-<connect gate="G$1" pin="PWM" pad="P$16"/>
-<connect gate="G$1" pin="RST" pad="P$2"/>
-<connect gate="G$1" pin="RX" pad="P$14"/>
-<connect gate="G$1" pin="SCK" pad="P$4"/>
-<connect gate="G$1" pin="SCL" pad="P$12"/>
-<connect gate="G$1" pin="SDA" pad="P$11"/>
-<connect gate="G$1" pin="TX" pad="P$13"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LARGE" package="MIKROE_BUS_LARGE">
-<connects>
-<connect gate="G$1" pin="3V3" pad="P$7"/>
-<connect gate="G$1" pin="5V" pad="P$10"/>
-<connect gate="G$1" pin="AN" pad="P$1"/>
-<connect gate="G$1" pin="CS" pad="P$3"/>
-<connect gate="G$1" pin="GND1" pad="P$8"/>
-<connect gate="G$1" pin="GND2" pad="P$9"/>
-<connect gate="G$1" pin="INT" pad="P$15"/>
-<connect gate="G$1" pin="MISO" pad="P$5"/>
-<connect gate="G$1" pin="MOSI" pad="P$6"/>
-<connect gate="G$1" pin="PWM" pad="P$16"/>
-<connect gate="G$1" pin="RST" pad="P$2"/>
-<connect gate="G$1" pin="RX" pad="P$14"/>
-<connect gate="G$1" pin="SCK" pad="P$4"/>
-<connect gate="G$1" pin="SCL" pad="P$12"/>
-<connect gate="G$1" pin="SDA" pad="P$11"/>
-<connect gate="G$1" pin="TX" pad="P$13"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="RCV420JP">
 <description>&lt;Texas Instruments RCV420JP, Current Loop Receiver 11.4 - 36 V 16-Pin PDIP&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -23632,6 +23280,112 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RK73Z1JTTD.pd
 </deviceset>
 </devicesets>
 </library>
+<library name="MIKROE-971">
+<description>&lt;MIKROELEKTRONIKA - MIKROE-971 - ADD-ON-BOARD, ETH CLICK MIKROBUS&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MIKROE-971_1">
+<description>&lt;b&gt;MIKROE-971&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-11.43" y="21.59" drill="0.889" diameter="1.35"/>
+<pad name="2" x="-11.43" y="19.05" drill="0.889" diameter="1.35"/>
+<pad name="3" x="-11.43" y="16.51" drill="0.889" diameter="1.35"/>
+<pad name="4" x="-11.43" y="13.97" drill="0.889" diameter="1.35"/>
+<pad name="5" x="-11.43" y="11.43" drill="0.889" diameter="1.35"/>
+<pad name="6" x="-11.43" y="8.89" drill="0.889" diameter="1.35"/>
+<pad name="7" x="-11.43" y="6.35" drill="0.889" diameter="1.35"/>
+<pad name="8" x="-11.43" y="3.81" drill="0.889" diameter="1.35"/>
+<pad name="9" x="11.43" y="3.81" drill="0.889" diameter="1.35"/>
+<pad name="10" x="11.43" y="6.35" drill="0.889" diameter="1.35"/>
+<pad name="11" x="11.43" y="8.89" drill="0.889" diameter="1.35"/>
+<pad name="12" x="11.43" y="11.43" drill="0.889" diameter="1.35"/>
+<pad name="13" x="11.43" y="13.97" drill="0.889" diameter="1.35"/>
+<pad name="14" x="11.43" y="16.51" drill="0.889" diameter="1.35"/>
+<pad name="15" x="11.43" y="19.05" drill="0.889" diameter="1.35"/>
+<pad name="16" x="11.43" y="21.59" drill="0.889" diameter="1.35"/>
+<text x="-0.936" y="21.895" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.936" y="21.895" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="-13.813" y="21.669" radius="0.062" width="0.2" layer="25"/>
+<wire x1="-12.7" y1="42.9" x2="12.7" y2="42.9" width="0.2" layer="51"/>
+<wire x1="12.7" y1="42.9" x2="12.7" y2="2.54" width="0.2" layer="51"/>
+<wire x1="12.7" y1="2.54" x2="10.16" y2="0" width="0.2" layer="51"/>
+<wire x1="10.16" y1="0" x2="-12.7" y2="0" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="42.9" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="42.9" width="0.2" layer="21"/>
+<wire x1="-12.7" y1="42.9" x2="12.7" y2="42.9" width="0.2" layer="21"/>
+<wire x1="12.7" y1="42.9" x2="12.7" y2="2.54" width="0.2" layer="21"/>
+<wire x1="12.7" y1="2.54" x2="10.16" y2="0" width="0.2" layer="21"/>
+<wire x1="10.16" y1="0" x2="-12.7" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MIKROE-971">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="AN" x="0" y="0" length="middle" direction="in"/>
+<pin name="RST" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="CS" x="0" y="-5.08" length="middle" direction="in"/>
+<pin name="SCK" x="0" y="-7.62" length="middle" direction="in"/>
+<pin name="SDO" x="0" y="-10.16" length="middle" direction="in"/>
+<pin name="SDI" x="0" y="-12.7" length="middle" direction="in"/>
+<pin name="3V3" x="0" y="-15.24" length="middle" direction="in"/>
+<pin name="GND(1)" x="0" y="-17.78" length="middle" direction="in"/>
+<pin name="GND(2)" x="33.02" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="5V" x="33.02" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="33.02" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SCL" x="33.02" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="RX" x="33.02" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="TX" x="33.02" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="INT" x="33.02" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="PWM" x="33.02" y="-17.78" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MIKROE-971" prefix="U">
+<description>&lt;b&gt;MIKROELEKTRONIKA - MIKROE-971 - ADD-ON-BOARD, ETH CLICK MIKROBUS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/1998794.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MIKROE-971" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MIKROE-971_1">
+<connects>
+<connect gate="G$1" pin="3V3" pad="7"/>
+<connect gate="G$1" pin="5V" pad="10"/>
+<connect gate="G$1" pin="AN" pad="1"/>
+<connect gate="G$1" pin="CS" pad="3"/>
+<connect gate="G$1" pin="GND(1)" pad="8"/>
+<connect gate="G$1" pin="GND(2)" pad="9"/>
+<connect gate="G$1" pin="INT" pad="15"/>
+<connect gate="G$1" pin="PWM" pad="16"/>
+<connect gate="G$1" pin="RST" pad="2"/>
+<connect gate="G$1" pin="RX" pad="13"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="12"/>
+<connect gate="G$1" pin="SDA" pad="11"/>
+<connect gate="G$1" pin="SDI" pad="6"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="TX" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="MIKROELEKTRONIKA - MIKROE-971 - ADD-ON-BOARD, ETH CLICK MIKROBUS" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="MIKROELEKTRONIKA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIKROE-971" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7916432" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7916432" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23712,7 +23466,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RK73Z1JTTD.pd
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R101" library="RC0402FR-0733RL" deviceset="RC0402FR-0733RL" device="" value="33"/>
 <part name="R100" library="RC0402FR-0733RL" deviceset="RC0402FR-0733RL" device="" value="33"/>
-<part name="U$1" library="mikrobus_lib" deviceset="MIKROE_CLICK" device="MINI"/>
 <part name="IC2" library="RCV420JP" deviceset="RCV420JP" device=""/>
 <part name="IC3" library="TC7662BEOA" deviceset="TC7662BEOA" device=""/>
 <part name="IC4" library="MC7812BTG" deviceset="MC7812BTG" device=""/>
@@ -23826,6 +23579,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RK73Z1JTTD.pd
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U11" library="MIKROE-971" deviceset="MIKROE-971" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24031,7 +23785,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND28" gate="1" x="561.34" y="111.76"/>
 <instance part="R101" gate="G$1" x="353.06" y="119.38"/>
 <instance part="R100" gate="G$1" x="358.14" y="109.22"/>
-<instance part="U$1" gate="G$1" x="-33.02" y="-119.38"/>
 <instance part="IC2" gate="G$1" x="-254" y="-198.12"/>
 <instance part="IC3" gate="G$1" x="-134.62" y="-238.76"/>
 <instance part="IC4" gate="G$1" x="-124.46" y="-200.66"/>
@@ -24152,6 +23905,7 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND10" gate="1" x="360.68" y="-327.66"/>
 <instance part="GND11" gate="1" x="370.84" y="-327.66"/>
 <instance part="GND49" gate="1" x="429.26" y="-327.66"/>
+<instance part="U11" gate="G$1" x="-53.34" y="-104.14"/>
 </instances>
 <busses>
 </busses>
@@ -24463,14 +24217,14 @@ Output ripple with optional filter = 70 mVPP</text>
 <junction x="-76.2" y="165.1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND1"/>
-<wire x1="-53.34" y1="-139.7" x2="-68.58" y2="-139.7" width="0.1524" layer="91"/>
-<label x="-68.58" y="-139.7" size="1.778" layer="95"/>
+<wire x1="-53.34" y1="-121.92" x2="-73.66" y2="-121.92" width="0.1524" layer="91"/>
+<label x="-73.66" y="-121.92" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="GND(1)"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND2"/>
-<wire x1="-15.24" y1="-139.7" x2="0" y2="-139.7" width="0.1524" layer="91"/>
-<label x="0" y="-139.7" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-104.14" x2="0" y2="-104.14" width="0.1524" layer="91"/>
+<label x="0" y="-104.14" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="GND(2)"/>
 </segment>
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
@@ -24632,9 +24386,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <junction x="-63.5" y="177.8"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="5V"/>
-<wire x1="-15.24" y1="-134.62" x2="0" y2="-134.62" width="0.1524" layer="91"/>
-<label x="0" y="-134.62" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-106.68" x2="0" y2="-106.68" width="0.1524" layer="91"/>
+<label x="0" y="-106.68" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -24901,9 +24655,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
-<wire x1="-53.34" y1="-134.62" x2="-68.58" y2="-134.62" width="0.1524" layer="91"/>
-<label x="-71.12" y="-134.62" size="1.778" layer="95"/>
+<wire x1="-53.34" y1="-119.38" x2="-73.66" y2="-119.38" width="0.1524" layer="91"/>
+<label x="-73.66" y="-119.38" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="3V3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VDD_2"/>
@@ -25806,9 +25560,9 @@ Output ripple with optional filter = 70 mVPP</text>
 </net>
 <net name="PTA20_RST" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RST"/>
-<wire x1="-53.34" y1="-109.22" x2="-68.58" y2="-109.22" width="0.1524" layer="91"/>
-<label x="-73.66" y="-109.22" size="1.778" layer="95"/>
+<label x="-73.66" y="-106.68" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="-106.68" x2="-53.34" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="RST"/>
 </segment>
 </net>
 <net name="PTE20_A0" class="0">
@@ -25818,16 +25572,16 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="157.48" y="299.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="AN"/>
 <wire x1="-53.34" y1="-104.14" x2="-73.66" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-73.66" y="-104.14" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="AN"/>
 </segment>
 </net>
 <net name="SPI0_MISO" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
-<wire x1="-53.34" y1="-124.46" x2="-68.58" y2="-124.46" width="0.1524" layer="91"/>
-<label x="-68.58" y="-124.46" size="1.778" layer="95"/>
+<wire x1="-53.34" y1="-114.3" x2="-73.66" y2="-114.3" width="0.1524" layer="91"/>
+<label x="-73.66" y="-114.3" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="SDO"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PTC7"/>
@@ -25843,9 +25597,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="302.26" y="287.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
-<wire x1="-53.34" y1="-129.54" x2="-68.58" y2="-129.54" width="0.1524" layer="91"/>
-<label x="-68.58" y="-129.54" size="1.778" layer="95"/>
+<wire x1="-53.34" y1="-116.84" x2="-73.66" y2="-116.84" width="0.1524" layer="91"/>
+<label x="-73.66" y="-116.84" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="SDI"/>
 </segment>
 </net>
 <net name="SPI0_SCK" class="0">
@@ -25855,9 +25609,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="317.5" y="284.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCK"/>
-<wire x1="-53.34" y1="-119.38" x2="-68.58" y2="-119.38" width="0.1524" layer="91"/>
-<label x="-68.58" y="-119.38" size="1.778" layer="95"/>
+<wire x1="-53.34" y1="-111.76" x2="-73.66" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-73.66" y="-111.76" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="SCK"/>
 </segment>
 </net>
 <net name="SPI0_PCS0" class="0">
@@ -25867,9 +25621,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="330.2" y="281.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CS"/>
-<wire x1="-53.34" y1="-114.3" x2="-68.58" y2="-114.3" width="0.1524" layer="91"/>
-<label x="-68.58" y="-114.3" size="1.778" layer="95"/>
+<label x="-73.66" y="-109.22" size="1.778" layer="95"/>
+<wire x1="-53.34" y1="-109.22" x2="-73.66" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="CS"/>
 </segment>
 </net>
 <net name="I2C0_SCL" class="0">
@@ -25879,9 +25633,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="165.1" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCL"/>
-<wire x1="-15.24" y1="-124.46" x2="0" y2="-124.46" width="0.1524" layer="91"/>
-<label x="0" y="-124.46" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-111.76" x2="0" y2="-111.76" width="0.1524" layer="91"/>
+<label x="0" y="-111.76" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="I2C0_SDA" class="0">
@@ -25891,9 +25645,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="165.1" y="269.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDA"/>
-<wire x1="-15.24" y1="-129.54" x2="0" y2="-129.54" width="0.1524" layer="91"/>
-<label x="0" y="-129.54" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-109.22" x2="0" y2="-109.22" width="0.1524" layer="91"/>
+<label x="0" y="-109.22" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="PIN_INT" class="0">
@@ -25903,9 +25657,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="144.78" y="302.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="INT"/>
-<wire x1="-15.24" y1="-109.22" x2="0" y2="-109.22" width="0.1524" layer="91"/>
-<label x="0" y="-109.22" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-119.38" x2="0" y2="-119.38" width="0.1524" layer="91"/>
+<label x="0" y="-119.38" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="INT"/>
 </segment>
 </net>
 <net name="TPM0_CH2_PWM" class="0">
@@ -25915,9 +25669,8 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="154.94" y="279.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM"/>
-<wire x1="-15.24" y1="-104.14" x2="0" y2="-104.14" width="0.1524" layer="91"/>
-<label x="0" y="-104.14" size="1.778" layer="95"/>
+<wire x1="-17.78" y1="-121.92" x2="0" y2="-121.92" width="0.1524" layer="91"/>
+<label x="0" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC0_DP3_IN_A4-20" class="0">
@@ -26073,9 +25826,9 @@ Output ripple with optional filter = 70 mVPP</text>
 </net>
 <net name="LPUART0_RX_MKB" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RX"/>
-<wire x1="-15.24" y1="-114.3" x2="0" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-114.3" x2="0" y2="-114.3" width="0.1524" layer="91"/>
 <label x="0" y="-114.3" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="RX"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PTD6/LLWU_P15"/>
@@ -26085,9 +25838,9 @@ Output ripple with optional filter = 70 mVPP</text>
 </net>
 <net name="LPUART0_TX_MKB" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TX"/>
-<wire x1="-15.24" y1="-119.38" x2="0" y2="-119.38" width="0.1524" layer="91"/>
-<label x="0" y="-119.38" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-116.84" x2="0" y2="-116.84" width="0.1524" layer="91"/>
+<label x="0" y="-116.84" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="TX"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PTD7"/>
