@@ -23420,26 +23420,26 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1998794.pdf"&gt; Datasheet
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="+3V3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device="" value="+3V3"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="10K"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="10K"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1K"/>
 <part name="CARGA" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="+24V" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="U4" library="SFH6156-4T" deviceset="SFH6156-4T" device="SMD-4_VO-L"/>
 <part name="Q2" library="IRF7416PBF_Completo" deviceset="IRF7416PBF" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="10K"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="10K"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1K"/>
 <part name="CARGA2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="+24V1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="U6" library="SFH6156-4T" deviceset="SFH6156-4T" device="SMD-4_VO-L"/>
 <part name="INPUT1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="220"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="130"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1k"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="10K"/>
 <part name="3.3V" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="U5" library="SFH6156-4T" deviceset="SFH6156-4T" device="SMD-4_VO-L"/>
 <part name="INPUT2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="220"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="130"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1k"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="10K"/>
 <part name="3.3V1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
@@ -23580,6 +23580,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1998794.pdf"&gt; Datasheet
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U11" library="MIKROE-971" deviceset="MIKROE-971" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -23888,8 +23891,8 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="C29" gate="G$1" x="-63.5" y="172.72"/>
 <instance part="+5V" gate="1" x="-48.26" y="177.8" rot="R270"/>
 <instance part="GND46" gate="1" x="-76.2" y="154.94"/>
-<instance part="GND47" gate="1" x="-2.54" y="27.94"/>
-<instance part="GND48" gate="1" x="-190.5" y="30.48"/>
+<instance part="GND47" gate="1" x="2.54" y="15.24"/>
+<instance part="GND48" gate="1" x="-182.88" y="17.78"/>
 <instance part="GND8" gate="1" x="-68.58" y="-76.2"/>
 <instance part="GND9" gate="1" x="104.14" y="-73.66"/>
 <instance part="JP5" gate="G$1" x="436.88" y="99.06"/>
@@ -23906,6 +23909,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND11" gate="1" x="370.84" y="-327.66"/>
 <instance part="GND49" gate="1" x="429.26" y="-327.66"/>
 <instance part="U11" gate="G$1" x="-53.34" y="-104.14"/>
+<instance part="GND13" gate="1" x="535.94" y="127"/>
+<instance part="LED4" gate="G$1" x="-182.88" y="33.02"/>
+<instance part="LED5" gate="G$1" x="2.54" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -24227,18 +24233,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="U11" gate="G$1" pin="GND(2)"/>
 </segment>
 <segment>
-<pinref part="GND48" gate="1" pin="GND"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-190.5" y1="33.02" x2="-190.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="40.64" x2="-180.34" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="30.48" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U6" gate="A" pin="E"/>
 <wire x1="-78.74" y1="-66.04" x2="-68.58" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-66.04" x2="-68.58" y2="-73.66" width="0.1524" layer="91"/>
@@ -24254,6 +24248,21 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="429.26" y1="-322.58" x2="429.26" y2="-325.12" width="0.1524" layer="91"/>
 <pinref part="GND49" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U13" gate="A" pin="GND"/>
+<wire x1="528.32" y1="129.54" x2="535.94" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+<wire x1="-182.88" y1="27.94" x2="-182.88" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -24389,6 +24398,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="-20.32" y1="-106.68" x2="0" y2="-106.68" width="0.1524" layer="91"/>
 <label x="0" y="-106.68" size="1.778" layer="95"/>
 <pinref part="U11" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="U13" gate="A" pin="VDD"/>
+<wire x1="472.44" y1="129.54" x2="467.36" y2="129.54" width="0.1524" layer="91"/>
+<label x="464.82" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -25895,6 +25909,22 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="535.94" y1="134.62" x2="535.94" y2="137.16" width="0.1524" layer="91"/>
 <junction x="535.94" y="137.16"/>
 <label x="551.18" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="-180.34" y1="40.64" x2="-182.88" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="-182.88" y1="40.64" x2="-182.88" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<wire x1="2.54" y1="38.1" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

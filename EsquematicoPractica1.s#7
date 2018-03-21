@@ -23691,11 +23691,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RK73Z1JTTD.pd
 <part name="3.3V1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="EVQPE105K" deviceset="EVQPE105K" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="C0402C104K8PAC" deviceset="C0402C104K8PAC" device=""/>
-<part name="C6" library="C0402C104K8PAC" deviceset="C0402C104K8PAC" device=""/>
 <part name="R15" library="RK73B1JTTD221J" deviceset="RK73B1JTTD221J" device=""/>
 <part name="X1" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB-SCHIELD-" device="32005-201" package3d_urn="urn:adsk.eagle:package:6443/1"/>
 <part name="L5" library="MPZ2012S331AT000" deviceset="MPZ2012S331AT000" device="" value="MPZ2012S331A"/>
@@ -23886,11 +23881,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="38.1" y1="-157.48" x2="27.94" y2="-157.48" width="0.1524" layer="97"/>
 <wire x1="27.94" y1="-157.48" x2="27.94" y2="-91.44" width="0.1524" layer="97"/>
 <text x="30.48" y="-88.9" size="1.778" layer="97">LED indicador de polarización</text>
-<wire x1="170.18" y1="-91.44" x2="78.8924" y2="-91.44" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="-170.18" x2="170.18" y2="-91.44" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="-170.18" x2="78.8924" y2="-170.18" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="-170.18" x2="78.74" y2="-91.44" width="0.1524" layer="97"/>
-<text x="81.28" y="-88.9" size="1.778" layer="97">Pulsador de RST</text>
 <wire x1="284.48" y1="182.88" x2="419.1" y2="182.88" width="0.1524" layer="97"/>
 <wire x1="284.48" y1="182.88" x2="284.48" y2="53.34" width="0.1524" layer="97"/>
 <wire x1="284.48" y1="53.34" x2="419.1" y2="53.34" width="0.1524" layer="97"/>
@@ -24022,11 +24012,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="3.3V1" gate="-1" x="114.3" y="-27.94" rot="R270"/>
 <instance part="LED3" gate="G$1" x="45.72" y="-139.7"/>
 <instance part="GND12" gate="1" x="45.72" y="-149.86"/>
-<instance part="S1" gate="G$1" x="99.06" y="-129.54"/>
-<instance part="GND13" gate="1" x="91.44" y="-147.32"/>
-<instance part="GND14" gate="1" x="137.16" y="-160.02"/>
-<instance part="C5" gate="G$1" x="137.16" y="-124.46" rot="R90"/>
-<instance part="C6" gate="G$1" x="137.16" y="-152.4" rot="R90"/>
 <instance part="R15" gate="G$1" x="45.72" y="-132.08" rot="R90"/>
 <instance part="X1" gate="G$1" x="297.18" y="119.38" rot="R180"/>
 <instance part="X1" gate="S" x="297.18" y="129.54" rot="R180"/>
@@ -24236,17 +24221,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="45.72" y1="-147.32" x2="45.72" y2="-144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="91.44" y1="-144.78" x2="91.44" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-129.54" x2="99.06" y2="-129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="137.16" y1="-152.4" x2="137.16" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND100" gate="1" pin="GND"/>
@@ -24948,11 +24922,6 @@ Output ripple with optional filter = 70 mVPP</text>
 </segment>
 </net>
 <net name="+3V3" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-111.76" x2="137.16" y2="-104.14" width="0.1524" layer="91"/>
-<label x="137.16" y="-101.6" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="45.72" y1="-114.3" x2="45.72" y2="-106.68" width="0.1524" layer="91"/>
 <label x="45.72" y="-104.14" size="1.778" layer="95"/>
@@ -25751,6 +25720,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="690.88" y1="-22.86" x2="723.9" y2="-22.86" width="0.1524" layer="91"/>
 <label x="723.9" y="-22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="PTA20"/>
+<wire x1="287.02" y1="243.84" x2="314.96" y2="243.84" width="0.1524" layer="91"/>
+<label x="314.96" y="243.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="P3V3_JMP2" class="0">
 <segment>
@@ -25777,6 +25751,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="690.88" y1="-12.7" x2="703.58" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="703.58" y1="-12.7" x2="703.58" y2="-10.16" width="0.1524" layer="91"/>
 <label x="703.58" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PTA0"/>
+<wire x1="175.26" y1="266.7" x2="149.86" y2="266.7" width="0.1524" layer="91"/>
+<label x="149.86" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -25867,22 +25846,6 @@ Output ripple with optional filter = 70 mVPP</text>
 </segment>
 </net>
 <net name="PTA20_RST" class="0">
-<segment>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="-129.54" x2="137.16" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-129.54" x2="137.16" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="-129.54" x2="137.16" y2="-124.46" width="0.1524" layer="91"/>
-<junction x="137.16" y="-129.54"/>
-<wire x1="137.16" y1="-129.54" x2="144.78" y2="-129.54" width="0.1524" layer="91"/>
-<label x="147.32" y="-129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="PTA20"/>
-<wire x1="287.02" y1="243.84" x2="297.18" y2="243.84" width="0.1524" layer="91"/>
-<label x="299.72" y="243.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="RST"/>
 <wire x1="-53.34" y1="-109.22" x2="-68.58" y2="-109.22" width="0.1524" layer="91"/>

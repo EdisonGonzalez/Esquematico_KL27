@@ -25114,24 +25114,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="317.5" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PTA3_IN_OA" class="0">
-<segment>
-<pinref part="U13" gate="A" pin="2OUT"/>
-<wire x1="472.44" y1="121.92" x2="462.28" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U13" gate="A" pin="2IN-"/>
-<wire x1="462.28" y1="121.92" x2="441.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="124.46" x2="462.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="124.46" x2="462.28" y2="121.92" width="0.1524" layer="91"/>
-<junction x="462.28" y="121.92"/>
-<label x="441.96" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="PTA3"/>
-<wire x1="175.26" y1="259.08" x2="160.02" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="259.08" x2="160.02" y2="259.08" width="0.1524" layer="91"/>
-<label x="157.48" y="259.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$76" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="2IN+"/>
@@ -25142,23 +25124,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="R103" gate="G$1" pin="2"/>
 <wire x1="449.58" y1="132.08" x2="459.74" y2="132.08" width="0.1524" layer="91"/>
 <junction x="449.58" y="132.08"/>
-</segment>
-</net>
-<net name="PTA4_IN_OA" class="0">
-<segment>
-<wire x1="528.32" y1="137.16" x2="538.48" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="137.16" x2="551.18" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="134.62" x2="538.48" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="134.62" x2="538.48" y2="137.16" width="0.1524" layer="91"/>
-<junction x="538.48" y="137.16"/>
-<pinref part="U13" gate="A" pin="4IN-"/>
-<pinref part="U13" gate="A" pin="4OUT"/>
-<label x="551.18" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="PTA4"/>
-<wire x1="175.26" y1="256.54" x2="157.48" y2="256.54" width="0.1524" layer="91"/>
-<label x="157.48" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$78" class="0">
@@ -25753,9 +25718,9 @@ Output ripple with optional filter = 70 mVPP</text>
 <label x="703.58" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="PTA0"/>
-<wire x1="175.26" y1="266.7" x2="149.86" y2="266.7" width="0.1524" layer="91"/>
-<label x="149.86" y="266.7" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PTA4"/>
+<wire x1="175.26" y1="256.54" x2="149.86" y2="256.54" width="0.1524" layer="91"/>
+<label x="149.86" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -25843,6 +25808,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="706.12" y1="-2.54" x2="706.12" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="706.12" y1="15.24" x2="713.74" y2="15.24" width="0.1524" layer="91"/>
 <label x="713.74" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PTA0"/>
+<wire x1="175.26" y1="266.7" x2="152.4" y2="266.7" width="0.1524" layer="91"/>
+<label x="152.4" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PTA20_RST" class="0">
@@ -26149,6 +26119,40 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="347.98" y1="104.14" x2="383.54" y2="104.14" width="0.1524" layer="91"/>
 <junction x="347.98" y="104.14"/>
 <label x="383.54" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PTB1_IN_OA" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PTB1"/>
+<wire x1="287.02" y1="248.92" x2="304.8" y2="248.92" width="0.1524" layer="91"/>
+<label x="304.8" y="248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U13" gate="A" pin="2OUT"/>
+<wire x1="472.44" y1="121.92" x2="464.82" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="2IN-"/>
+<wire x1="464.82" y1="121.92" x2="449.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="124.46" x2="464.82" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="124.46" x2="464.82" y2="121.92" width="0.1524" layer="91"/>
+<junction x="464.82" y="121.92"/>
+<label x="449.58" y="121.92" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="PTB2_IN_OA" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PTB2"/>
+<wire x1="287.02" y1="251.46" x2="304.8" y2="251.46" width="0.1524" layer="91"/>
+<label x="304.8" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U13" gate="A" pin="4OUT"/>
+<wire x1="528.32" y1="137.16" x2="535.94" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="4IN-"/>
+<wire x1="535.94" y1="137.16" x2="551.18" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="528.32" y1="134.62" x2="535.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="535.94" y1="134.62" x2="535.94" y2="137.16" width="0.1524" layer="91"/>
+<junction x="535.94" y="137.16"/>
+<label x="551.18" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
