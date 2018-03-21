@@ -24795,11 +24795,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="Q2" gate="G$1" pin="DRAIN(1)"/>
 <wire x1="-45.72" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="10"/>
-<wire x1="690.88" y1="-22.86" x2="723.9" y2="-22.86" width="0.1524" layer="91"/>
-<label x="723.9" y="-22.86" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -25281,6 +25276,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="546.1" y1="20.32" x2="546.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="546.1" y="17.78" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="314.96" y1="-281.94" x2="314.96" y2="-269.24" width="0.1524" layer="91"/>
+<label x="314.96" y="-269.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
@@ -25746,6 +25746,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="604.52" y1="-182.88" x2="609.6" y2="-182.88" width="0.1524" layer="91"/>
 <label x="609.6" y="-182.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="10"/>
+<wire x1="690.88" y1="-22.86" x2="723.9" y2="-22.86" width="0.1524" layer="91"/>
+<label x="723.9" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="P3V3_JMP2" class="0">
 <segment>
@@ -25766,6 +25771,12 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="556.26" y1="-177.8" x2="546.1" y2="-177.8" width="0.1524" layer="91"/>
 <label x="556.26" y="-177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="690.88" y1="-12.7" x2="703.58" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="703.58" y1="-12.7" x2="703.58" y2="-10.16" width="0.1524" layer="91"/>
+<label x="703.58" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -25843,12 +25854,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <wire x1="668.02" y1="-12.7" x2="665.48" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="665.48" y1="-12.7" x2="665.48" y2="-7.62" width="0.1524" layer="91"/>
 <label x="665.48" y="-7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="690.88" y1="-12.7" x2="711.2" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="KL27_SWD_CLK" class="0">
@@ -26166,12 +26171,6 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="U1" gate="A" pin="PTD7"/>
 <wire x1="287.02" y1="320.04" x2="317.5" y2="320.04" width="0.1524" layer="91"/>
 <label x="317.5" y="320.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="314.96" y1="-281.94" x2="314.96" y2="-269.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P5V_KL27Z" class="0">
