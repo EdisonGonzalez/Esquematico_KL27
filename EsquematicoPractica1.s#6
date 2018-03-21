@@ -23373,6 +23373,203 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 </deviceset>
 </devicesets>
 </library>
+<library name="DFLS130L-7">
+<description>&lt;1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="POWERDI_123">
+<description>&lt;b&gt;PowerDI 123&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.4" dy="0.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.17" y1="0.89" x2="0.83" y2="0.89" width="0.1" layer="51"/>
+<wire x1="0.83" y1="0.89" x2="0.83" y2="-0.89" width="0.1" layer="51"/>
+<wire x1="0.83" y1="-0.89" x2="-2.17" y2="-0.89" width="0.1" layer="51"/>
+<wire x1="-2.17" y1="-0.89" x2="-2.17" y2="0.89" width="0.1" layer="51"/>
+<wire x1="-2.17" y1="0.89" x2="0.83" y2="0.89" width="0.1" layer="21"/>
+<wire x1="-2.17" y1="-0.89" x2="0.83" y2="-0.89" width="0.1" layer="21"/>
+<circle x="-2.79" y="1.21" radius="0.10198125" width="0.1" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DFLS130L-7">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DFLS130L-7" prefix="D">
+<description>&lt;b&gt;1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/104e/0900766b8104e3fd.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DFLS130L-7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERDI_123">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Diodes Inc." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DFLS130L-7" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="9228351" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/9228351" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="NCP1117ST33T3G">
+<description>&lt;ON SEMICONDUCTOR - NCP1117ST33T3G - IC, LINEAR VOLTAGE REGULATOR&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT230P700X180-4N">
+<description>&lt;b&gt;SOT-223 ST SUFFIX CASE 318E-04 ISSUE O&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.4" y="2.3" dx="1.25" dy="0.95" layer="1"/>
+<smd name="2" x="-3.4" y="0" dx="1.25" dy="0.95" layer="1"/>
+<smd name="3" x="-3.4" y="-2.3" dx="1.25" dy="0.95" layer="1"/>
+<smd name="4" x="3.4" y="0" dx="3.2" dy="1.25" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.275" y1="3.6" x2="4.275" y2="3.6" width="0.05" layer="51"/>
+<wire x1="4.275" y1="3.6" x2="4.275" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="4.275" y1="-3.6" x2="-4.275" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="-4.275" y1="-3.6" x2="-4.275" y2="3.6" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-2.425" y1="3.25" x2="2.425" y2="3.25" width="0.2" layer="21"/>
+<wire x1="2.425" y1="3.25" x2="2.425" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="2.425" y1="-3.25" x2="-2.425" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-2.425" y1="-3.25" x2="-2.425" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-4.025" y1="3.125" x2="-2.775" y2="3.125" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NCP1117ST33T3G">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-5.08" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND" x="0" y="0" length="middle" direction="in"/>
+<pin name="OUT(1)" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="IN" x="33.02" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="OUT(2)" x="33.02" y="-2.54" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NCP1117ST33T3G" prefix="IC">
+<description>&lt;b&gt;ON SEMICONDUCTOR - NCP1117ST33T3G - IC, LINEAR VOLTAGE REGULATOR&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NCP1117ST33T3G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT(1)" pad="2"/>
+<connect gate="G$1" pin="OUT(2)" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70340559" constant="no"/>
+<attribute name="ALLIED_PRICE/STOCK" value="http://www.alliedelec.com/on-semiconductor-ncp1117st33t3g/70340559/" constant="no"/>
+<attribute name="DESCRIPTION" value="ON SEMICONDUCTOR - NCP1117ST33T3G - IC, LINEAR VOLTAGE REGULATOR" constant="no"/>
+<attribute name="HEIGHT" value="1.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NCP1117ST33T3G" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7857207P" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7857207P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="C1608X5R1A106M080AC">
+<description>&lt;TDK - C1608X5R1A106M080AC - CAP, MLCC, X5R, 10UF, 10V, 0603&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPC1608X80N">
+<description>&lt;b&gt;C1608 (080 thickness)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
+<smd name="2" x="0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.22" y1="0.62" x2="1.22" y2="0.62" width="0.05" layer="51"/>
+<wire x1="1.22" y1="0.62" x2="1.22" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="1.22" y1="-0.62" x2="-1.22" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="-1.22" y1="-0.62" x2="-1.22" y2="0.62" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="C1608X5R1A106M080AC">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C1608X5R1A106M080AC" prefix="C">
+<description>&lt;b&gt;TDK - C1608X5R1A106M080AC - CAP, MLCC, X5R, 10UF, 10V, 0603&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C1608X5R1A106M080AC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X80N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TDK - C1608X5R1A106M080AC - CAP, MLCC, X5R, 10UF, 10V, 0603" constant="no"/>
+<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X5R1A106M080AC" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="9159117" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/9159117" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23563,6 +23760,12 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="D2" library="DFLS130L-7" deviceset="DFLS130L-7" device=""/>
+<part name="D3" library="DFLS130L-7" deviceset="DFLS130L-7" device=""/>
+<part name="IC10" library="NCP1117ST33T3G" deviceset="NCP1117ST33T3G" device=""/>
+<part name="D4" library="DFLS130L-7" deviceset="DFLS130L-7" device=""/>
+<part name="C30" library="C1608X5R1A106M080AC" deviceset="C1608X5R1A106M080AC" device=""/>
+<part name="C31" library="C1608X5R1A106M080AC" deviceset="C1608X5R1A106M080AC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23685,6 +23888,11 @@ Output ripple with optional filter = 70 mVPP</text>
 <text x="109.22" y="71.12" size="1.778" layer="97">GND_N2</text>
 <text x="-127" y="-68.58" size="1.778" layer="97">GND_N2</text>
 <text x="45.72" y="-66.04" size="1.778" layer="97">GND_N2</text>
+<wire x1="294.64" y1="-248.92" x2="525.78" y2="-248.92" width="0.1524" layer="97"/>
+<wire x1="525.78" y1="-248.92" x2="525.78" y2="-353.06" width="0.1524" layer="97"/>
+<wire x1="525.78" y1="-353.06" x2="294.64" y2="-353.06" width="0.1524" layer="97"/>
+<wire x1="294.64" y1="-353.06" x2="294.64" y2="-248.92" width="0.1524" layer="97"/>
+<text x="297.18" y="-243.84" size="1.778" layer="97">Alimentación 3V3 openSDA Interface</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="175.26" y="320.04"/>
@@ -23891,6 +24099,12 @@ Output ripple with optional filter = 70 mVPP</text>
 <instance part="GND8" gate="1" x="-68.58" y="-76.2"/>
 <instance part="GND9" gate="1" x="104.14" y="-73.66"/>
 <instance part="JP5" gate="G$1" x="436.88" y="99.06"/>
+<instance part="D2" gate="G$1" x="314.96" y="-297.18" rot="R90"/>
+<instance part="D3" gate="G$1" x="345.44" y="-297.18" rot="R90"/>
+<instance part="IC10" gate="G$1" x="375.92" y="-302.26"/>
+<instance part="D4" gate="G$1" x="462.28" y="-299.72" rot="R180"/>
+<instance part="C30" gate="G$1" x="360.68" y="-322.58" rot="R90"/>
+<instance part="C31" gate="G$1" x="429.26" y="-322.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -25784,6 +25998,22 @@ Output ripple with optional filter = 70 mVPP</text>
 <pinref part="R105" gate="G$1" pin="1"/>
 <wire x1="434.34" y1="99.06" x2="541.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="541.02" y1="99.06" x2="541.02" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="IN"/>
+<wire x1="408.94" y1="-302.26" x2="416.56" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="-302.26" x2="416.56" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="-284.48" x2="365.76" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-284.48" x2="365.76" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-302.26" x2="345.44" y2="-302.26" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="K"/>
+<wire x1="345.44" y1="-302.26" x2="345.44" y2="-297.18" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="314.96" y1="-297.18" x2="314.96" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="-302.26" x2="345.44" y2="-302.26" width="0.1524" layer="91"/>
+<junction x="345.44" y="-302.26"/>
 </segment>
 </net>
 </nets>
